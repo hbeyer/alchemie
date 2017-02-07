@@ -2835,7 +2835,7 @@
     <vorname>Aureolus Theophrastus</vorname>
     <nachname>Paracelsus</nachname>
     <name>Paracelsus</name>
-    <sortiername>Paracelsus, Aureolus Theophrastus</sortiername>
+    <sortiername>Paracelsus</sortiername>
     <gnd>11859169X</gnd>
     <lebensdaten>1493&#x2013;1541</lebensdaten>
     <vorkommenAutor>29</vorkommenAutor>
@@ -3351,7 +3351,7 @@
     <vorname>Amalie</vorname>
     <nachname>Zur Lippe- Brake</nachname>
     <titel>Gr&#xE4;fin zu der</titel>
-    <sortiername>Zur Lippe- Brake, Amalie Gr&#xE4;fin zu der</sortiername>
+    <sortiername>Zur Lippe- Brake, Amalie</sortiername>
     <gnd>121292215</gnd>
     <lebensdaten>1628&#x2013;1676</lebensdaten>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
@@ -3421,7 +3421,7 @@
     <nachname>Valentinus</nachname>
     <name>Basilius</name>
     <beiname>Valentinus</beiname>
-    <sortiername>Valentinus, Basilius, Valentinus</sortiername>
+    <sortiername>Basilius, Valentinus</sortiername>
     <gnd>118507036</gnd>
     <lebensdaten>1394&#x2013;1450</lebensdaten>
     <vorkommenAutor>26</vorkommenAutor>
@@ -4568,7 +4568,7 @@
     <nachname>Tenison</nachname>
     <name>Thomas</name>
     <beiname>Archiepiscopus Cantuariensis</beiname>
-    <sortiername>Tenison, Thomas, Archiepiscopus Cantuariensis</sortiername>
+    <sortiername>Tenison, Thomas</sortiername>
     <gnd>129746436</gnd>
     <lebensdaten>1636&#x2013;1715</lebensdaten>
     <vorkommenBeteiligt>2</vorkommenBeteiligt>
@@ -7003,7 +7003,7 @@
     <sortiername>Lopez de Haro, Felix</sortiername>
     <gnd>128699256</gnd>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
-    <vorkommenVerleger>2</vorkommenVerleger>
+    <vorkommenVerleger>3</vorkommenVerleger>
   </person>
   <person>
     <vorname>Christian</vorname>
@@ -8521,7 +8521,7 @@
     <nachname>Tachenius</nachname>
     <sortiername>Tachenius, Otto</sortiername>
     <gnd>1055370250</gnd>
-    <vorkommenAutor>4</vorkommenAutor>
+    <vorkommenAutor>5</vorkommenAutor>
   </person>
   <person>
     <vorname>Modestinus</vorname>
@@ -10354,12 +10354,6 @@
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
   <person>
-    <vorname>Anthonius</vorname>
-    <nachname>Buscherus</nachname>
-    <sortiername>Buscherus, Anthonius</sortiername>
-    <vorkommenBeteiligt>1</vorkommenBeteiligt>
-  </person>
-  <person>
     <vorname>Christian</vorname>
     <nachname>Hoburg</nachname>
     <sortiername>Hoburg, Christian</sortiername>
@@ -10480,6 +10474,13 @@
     <nachname>Krafft</nachname>
     <sortiername>Krafft, Theophilus</sortiername>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
+  </person>
+  <person>
+    <vorname>Adrianus</vorname>
+    <nachname>Severinus</nachname>
+    <sortiername>Severinus, Adrianus</sortiername>
+    <gnd>1037588959</gnd>
+    <vorkommenVerleger>1</vorkommenVerleger>
   </person>
   <person>
     <vorname>Hendrick</vorname>
@@ -10687,7 +10688,7 @@
     <nachname>Humm</nachname>
     <sortiername>Humm, Anna Maria</sortiername>
     <gnd>1051038367</gnd>
-    <vorkommenVerleger>2</vorkommenVerleger>
+    <vorkommenVerleger>3</vorkommenVerleger>
   </person>
   <person>
     <vorname>Paul</vorname>
@@ -10755,18 +10756,6 @@
     <vorkommenVerleger>1</vorkommenVerleger>
     <beaconResults>
       <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd138899460.html</link>
-    </beaconResults>
-  </person>
-  <person>
-    <vorname>Wolfgang Eberhard</vorname>
-    <nachname>Felsecker</nachname>
-    <sortiername>Felsecker, Wolfgang Eberhard</sortiername>
-    <gnd>104318295</gnd>
-    <vorkommenVerleger>2</vorkommenVerleger>
-    <beaconResults>
-      <link>Kalliope Verbundkatalog#http://kalliope.staatsbibliothek-berlin.de/de/eac?eac.id=104318295</link>
-      <link>Digitaler Portraitindex#http://www.portraitindex.de/dokumente/pnd/104318295</link>
-      <link>Virtuelles Kupferstichkabinett#http://www.virtuelles-kupferstichkabinett.de/index.php?reset=1&amp;subPage=search&amp;selTab=2&amp;habFilter=1&amp;haumFilter=1&amp;selFilter=0&amp;sKey1=pzusatz&amp;sWord1=104318295</link>
     </beaconResults>
   </person>
   <person>
@@ -11100,6 +11089,12 @@
     <beaconResults>
       <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd12362231X.html</link>
     </beaconResults>
+  </person>
+  <person>
+    <vorname>Anthonius</vorname>
+    <nachname>Buscherus</nachname>
+    <sortiername>Buscherus, Anthonius</sortiername>
+    <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
   <person>
     <vorname>Georg</vorname>
@@ -12125,13 +12120,6 @@
     <vorkommenBeteiligt>2</vorkommenBeteiligt>
   </person>
   <person>
-    <vorname>Johann</vorname>
-    <nachname>Overbeck</nachname>
-    <titel>von</titel>
-    <sortiername>Overbeck, Johann von</sortiername>
-    <vorkommenBeteiligt>1</vorkommenBeteiligt>
-  </person>
-  <person>
     <vorname>Johannes</vorname>
     <nachname>Scultetus</nachname>
     <sortiername>Scultetus, Johannes</sortiername>
@@ -12287,6 +12275,18 @@
       <link>Sandrart.net#http://ta.sandrart.net/services/pnd-beacon/?pnd=118504223</link>
       <link>Kalliope Verbundkatalog#http://kalliope.staatsbibliothek-berlin.de/de/eac?eac.id=118504223</link>
       <link>Digitaler Portraitindex#http://www.portraitindex.de/dokumente/pnd/118504223</link>
+    </beaconResults>
+  </person>
+  <person>
+    <vorname>Wolfgang Eberhard</vorname>
+    <nachname>Felsecker</nachname>
+    <sortiername>Felsecker, Wolfgang Eberhard</sortiername>
+    <gnd>104318295</gnd>
+    <vorkommenVerleger>2</vorkommenVerleger>
+    <beaconResults>
+      <link>Kalliope Verbundkatalog#http://kalliope.staatsbibliothek-berlin.de/de/eac?eac.id=104318295</link>
+      <link>Digitaler Portraitindex#http://www.portraitindex.de/dokumente/pnd/104318295</link>
+      <link>Virtuelles Kupferstichkabinett#http://www.virtuelles-kupferstichkabinett.de/index.php?reset=1&amp;subPage=search&amp;selTab=2&amp;habFilter=1&amp;haumFilter=1&amp;selFilter=0&amp;sKey1=pzusatz&amp;sWord1=104318295</link>
     </beaconResults>
   </person>
   <person>
@@ -12713,6 +12713,13 @@
     <vorkommenAutor>1</vorkommenAutor>
   </person>
   <person>
+    <vorname>Johann</vorname>
+    <nachname>Overbeck</nachname>
+    <titel>von</titel>
+    <sortiername>Overbeck, Johann von</sortiername>
+    <vorkommenBeteiligt>1</vorkommenBeteiligt>
+  </person>
+  <person>
     <vorname>Hans Dieterich</vorname>
     <nachname>Tschesch</nachname>
     <titel>von</titel>
@@ -13129,48 +13136,6 @@
     <vorkommenBeteiligt>2</vorkommenBeteiligt>
   </person>
   <person>
-    <vorname>A.</vorname>
-    <nachname>Benck</nachname>
-    <sortiername>Benck, A.</sortiername>
-    <vorkommenBeteiligt>2</vorkommenBeteiligt>
-  </person>
-  <person>
-    <vorname>Johannes</vorname>
-    <nachname>Seussius</nachname>
-    <sortiername>Seussius, Johannes</sortiername>
-    <vorkommenBeteiligt>2</vorkommenBeteiligt>
-  </person>
-  <person>
-    <vorname>M.</vorname>
-    <nachname>Zuberus</nachname>
-    <sortiername>Zuberus, M.</sortiername>
-    <vorkommenBeteiligt>2</vorkommenBeteiligt>
-  </person>
-  <person>
-    <vorname>Theophilus</vorname>
-    <nachname>Aretius</nachname>
-    <sortiername>Aretius, Theophilus</sortiername>
-    <vorkommenBeteiligt>2</vorkommenBeteiligt>
-  </person>
-  <person>
-    <vorname>Johan</vorname>
-    <nachname>Diricks</nachname>
-    <sortiername>Diricks, Johan</sortiername>
-    <vorkommenBeteiligt>1</vorkommenBeteiligt>
-  </person>
-  <person>
-    <vorname>Christianus</vorname>
-    <nachname>Cordatus</nachname>
-    <sortiername>Cordatus, Christianus</sortiername>
-    <vorkommenBeteiligt>2</vorkommenBeteiligt>
-  </person>
-  <person>
-    <vorname>Theodorus</vorname>
-    <nachname>Aquilinus</nachname>
-    <sortiername>Aquilinus, Theodorus</sortiername>
-    <vorkommenBeteiligt>2</vorkommenBeteiligt>
-  </person>
-  <person>
     <vorname>Heinrich</vorname>
     <nachname>Prunn</nachname>
     <sortiername>Prunn, Heinrich</sortiername>
@@ -13244,12 +13209,6 @@
       <link>Kalliope Verbundkatalog#http://kalliope.staatsbibliothek-berlin.de/de/eac?eac.id=118632043</link>
       <link>Digitaler Portraitindex#http://www.portraitindex.de/dokumente/pnd/118632043</link>
     </beaconResults>
-  </person>
-  <person>
-    <vorname>Erasmus</vorname>
-    <nachname>Wolfart</nachname>
-    <sortiername>Wolfart, Erasmus</sortiername>
-    <vorkommenBeteiligt>2</vorkommenBeteiligt>
   </person>
   <person>
     <vorname>John</vorname>
@@ -13451,13 +13410,6 @@
     </beaconResults>
   </person>
   <person>
-    <vorname>Tobias</vorname>
-    <nachname>Gundermann</nachname>
-    <sortiername>Gundermann, Tobias</sortiername>
-    <gnd>132789779</gnd>
-    <vorkommenVerleger>1</vorkommenVerleger>
-  </person>
-  <person>
     <vorname>Samuel</vorname>
     <nachname>Hafenreffer</nachname>
     <sortiername>Hafenreffer, Samuel</sortiername>
@@ -13654,15 +13606,6 @@
     <vorkommenAutor>1</vorkommenAutor>
   </person>
   <person>
-    <vorname>David</vorname>
-    <nachname>Planis Campy</nachname>
-    <titel>de</titel>
-    <sortiername>Planis Campy, David de</sortiername>
-    <gnd>1055443002</gnd>
-    <lebensdaten>1589&#x2013;1644</lebensdaten>
-    <vorkommenAutor>2</vorkommenAutor>
-  </person>
-  <person>
     <vorname>Philipp Jacob</vorname>
     <nachname>Sachs von Lewenheimb</nachname>
     <sortiername>Sachs von Lewenheimb, Philipp Jacob</sortiername>
@@ -13676,6 +13619,48 @@
       <link>Kalliope Verbundkatalog#http://kalliope.staatsbibliothek-berlin.de/de/eac?eac.id=117599719</link>
       <link>Digitaler Portraitindex#http://www.portraitindex.de/dokumente/pnd/117599719</link>
     </beaconResults>
+  </person>
+  <person>
+    <vorname>A.</vorname>
+    <nachname>Benck</nachname>
+    <sortiername>Benck, A.</sortiername>
+    <vorkommenBeteiligt>2</vorkommenBeteiligt>
+  </person>
+  <person>
+    <vorname>Johannes</vorname>
+    <nachname>Seussius</nachname>
+    <sortiername>Seussius, Johannes</sortiername>
+    <vorkommenBeteiligt>2</vorkommenBeteiligt>
+  </person>
+  <person>
+    <vorname>M.</vorname>
+    <nachname>Zuberus</nachname>
+    <sortiername>Zuberus, M.</sortiername>
+    <vorkommenBeteiligt>2</vorkommenBeteiligt>
+  </person>
+  <person>
+    <vorname>Theophilus</vorname>
+    <nachname>Aretius</nachname>
+    <sortiername>Aretius, Theophilus</sortiername>
+    <vorkommenBeteiligt>2</vorkommenBeteiligt>
+  </person>
+  <person>
+    <vorname>Johan</vorname>
+    <nachname>Diricks</nachname>
+    <sortiername>Diricks, Johan</sortiername>
+    <vorkommenBeteiligt>1</vorkommenBeteiligt>
+  </person>
+  <person>
+    <vorname>Christianus</vorname>
+    <nachname>Cordatus</nachname>
+    <sortiername>Cordatus, Christianus</sortiername>
+    <vorkommenBeteiligt>2</vorkommenBeteiligt>
+  </person>
+  <person>
+    <vorname>Theodorus</vorname>
+    <nachname>Aquilinus</nachname>
+    <sortiername>Aquilinus, Theodorus</sortiername>
+    <vorkommenBeteiligt>2</vorkommenBeteiligt>
   </person>
   <person>
     <vorname>Jacobus</vorname>
@@ -14379,6 +14364,12 @@
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
   <person>
+    <vorname>Erasmus</vorname>
+    <nachname>Wolfart</nachname>
+    <sortiername>Wolfart, Erasmus</sortiername>
+    <vorkommenBeteiligt>2</vorkommenBeteiligt>
+  </person>
+  <person>
     <vorname>John</vorname>
     <nachname>Hester</nachname>
     <sortiername>Hester, John</sortiername>
@@ -14524,6 +14515,13 @@
     <gnd>128933763</gnd>
     <vorkommenAutor>3</vorkommenAutor>
     <vorkommenBeteiligt>2</vorkommenBeteiligt>
+  </person>
+  <person>
+    <vorname>Tobias</vorname>
+    <nachname>Gundermann</nachname>
+    <sortiername>Gundermann, Tobias</sortiername>
+    <gnd>132789779</gnd>
+    <vorkommenVerleger>1</vorkommenVerleger>
   </person>
   <person>
     <vorname>Johann</vorname>
@@ -14808,12 +14806,13 @@
     </beaconResults>
   </person>
   <person>
-    <vorname>Denys</vorname>
-    <nachname>Moreau</nachname>
-    <beiname>I.</beiname>
-    <sortiername>Moreau, Denys, I.</sortiername>
-    <gnd>1037552008</gnd>
-    <vorkommenVerleger>1</vorkommenVerleger>
+    <vorname>David</vorname>
+    <nachname>Planis Campy</nachname>
+    <titel>de</titel>
+    <sortiername>Planis Campy, David de</sortiername>
+    <gnd>1055443002</gnd>
+    <lebensdaten>1589&#x2013;1644</lebensdaten>
+    <vorkommenAutor>2</vorkommenAutor>
   </person>
   <person>
     <vorname>Anton G&#xFC;nther</vorname>
@@ -16067,6 +16066,14 @@
     </beaconResults>
   </person>
   <person>
+    <vorname>Denys</vorname>
+    <nachname>Moreau</nachname>
+    <beiname>I.</beiname>
+    <sortiername>Moreau, Denys, I.</sortiername>
+    <gnd>1037552008</gnd>
+    <vorkommenVerleger>1</vorkommenVerleger>
+  </person>
+  <person>
     <vorname>Heinrich</vorname>
     <nachname>Schernwebel</nachname>
     <sortiername>Schernwebel, Heinrich</sortiername>
@@ -16656,12 +16663,6 @@
       <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd10423489X.html</link>
       <link>Kalliope Verbundkatalog#http://kalliope.staatsbibliothek-berlin.de/de/eac?eac.id=10423489X</link>
     </beaconResults>
-  </person>
-  <person>
-    <vorname>Duncan</vorname>
-    <nachname>Burnet</nachname>
-    <sortiername>Burnet, Duncan</sortiername>
-    <vorkommenAutor>2</vorkommenAutor>
   </person>
   <person>
     <vorname>Ceriacus</vorname>
@@ -18170,6 +18171,12 @@
     </beaconResults>
   </person>
   <person>
+    <vorname>Duncan</vorname>
+    <nachname>Burnet</nachname>
+    <sortiername>Burnet, Duncan</sortiername>
+    <vorkommenAutor>2</vorkommenAutor>
+  </person>
+  <person>
     <vorname>Otto</vorname>
     <nachname>Veen</nachname>
     <titel>van</titel>
@@ -19024,12 +19031,6 @@
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
   <person>
-    <vorname>Georgius</vorname>
-    <nachname>Possius</nachname>
-    <sortiername>Possius, Georgius</sortiername>
-    <vorkommenBeteiligt>1</vorkommenBeteiligt>
-  </person>
-  <person>
     <vorname>Cornelis</vorname>
     <nachname>Boel</nachname>
     <sortiername>Boel, Cornelis</sortiername>
@@ -19540,6 +19541,12 @@
     <beaconResults>
       <link>Gesamtkatalog deutschsprachiger Leichenpredigten#http://cgi-host.uni-marburg.de/~omgesa/gs/xs1.php?f1=pnd&amp;s1=132435136</link>
     </beaconResults>
+  </person>
+  <person>
+    <vorname>Georgius</vorname>
+    <nachname>Possius</nachname>
+    <sortiername>Possius, Georgius</sortiername>
+    <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
   <person>
     <vorname>Ric.</vorname>
@@ -21120,6 +21127,7 @@
     <nachname>Haslmayr</nachname>
     <sortiername>Haslmayr, Adam</sortiername>
     <gnd>119215020</gnd>
+    <lebensdaten>1555&#x2013;1630</lebensdaten>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
     <beaconResults>
       <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/119215020</link>
@@ -21622,14 +21630,6 @@
       <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd122526465.html</link>
       <link>Gesamtkatalog deutschsprachiger Leichenpredigten#http://cgi-host.uni-marburg.de/~omgesa/gs/xs1.php?f1=pnd&amp;s1=122526465</link>
     </beaconResults>
-  </person>
-  <person>
-    <vorname>Israel</vorname>
-    <nachname>Harvet</nachname>
-    <sortiername>Harvet, Israel</sortiername>
-    <gnd>124523110</gnd>
-    <vorkommenAutor>1</vorkommenAutor>
-    <vorkommenBeteiligt>2</vorkommenBeteiligt>
   </person>
   <person>
     <vorname>Johannes Joachim</vorname>
@@ -22749,6 +22749,14 @@
     <sortiername>Bertram, Anton</sortiername>
     <gnd>119619571</gnd>
     <vorkommenVerleger>1</vorkommenVerleger>
+  </person>
+  <person>
+    <vorname>Israel</vorname>
+    <nachname>Harvet</nachname>
+    <sortiername>Harvet, Israel</sortiername>
+    <gnd>124523110</gnd>
+    <vorkommenAutor>1</vorkommenAutor>
+    <vorkommenBeteiligt>2</vorkommenBeteiligt>
   </person>
   <person>
     <vorname>Hendrik</vorname>
@@ -24192,7 +24200,7 @@
     <nachname>Portaleone</nachname>
     <name>Abraham</name>
     <beiname>e Porta Leonis</beiname>
-    <sortiername>Portaleone, Avraham ben Da&#x1E7F;id, e Porta Leonis</sortiername>
+    <sortiername>Portaleone, Avraham ben Da&amp;#x1E7F;id</sortiername>
     <gnd>104081589</gnd>
     <lebensdaten>1542&#x2013;1612</lebensdaten>
     <vorkommenAutor>1</vorkommenAutor>
@@ -24443,7 +24451,7 @@
     <name>Vincenzo</name>
     <beiname>Mantua, Herzog</beiname>
     <zaehlung>I.</zaehlung>
-    <sortiername>Gonzaga, Vincenzo I., Mantua, Herzog</sortiername>
+    <sortiername>Vincenzo I., Mantua, Herzog</sortiername>
     <gnd>118768522</gnd>
     <lebensdaten>1562&#x2013;1612</lebensdaten>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
@@ -24552,7 +24560,7 @@
     <name>Johann</name>
     <beiname>Stra&#xDF;burg, Bischoff</beiname>
     <titel>de</titel>
-    <sortiername>Manderscheidt-Blanckenheim, Jean de, Stra&#xDF;burg, Bischoff</sortiername>
+    <sortiername>Manderscheidt-Blanckenheim, Jean de</sortiername>
     <gnd>119543052</gnd>
     <lebensdaten>1538&#x2013;1592</lebensdaten>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
@@ -24618,7 +24626,7 @@
     <nachname>Gonzaga</nachname>
     <name>Guglielmo</name>
     <beiname>Mantua, Herzog</beiname>
-    <sortiername>Gonzaga, Gulielmus, Mantua, Herzog</sortiername>
+    <sortiername>Guglielmo, Mantua, Herzog</sortiername>
     <gnd>104066822</gnd>
     <lebensdaten>1538&#x2013;1587</lebensdaten>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
@@ -24719,20 +24727,6 @@
       <link>Digitaler Portraitindex#http://www.portraitindex.de/dokumente/pnd/11607969X</link>
       <link>Virtuelles Kupferstichkabinett#http://www.virtuelles-kupferstichkabinett.de/index.php?reset=1&amp;subPage=search&amp;selTab=2&amp;habFilter=1&amp;haumFilter=1&amp;selFilter=0&amp;sKey1=pzusatz&amp;sWord1=11607969X</link>
     </beaconResults>
-  </person>
-  <person>
-    <vorname>Joachim</vorname>
-    <nachname>Gropler</nachname>
-    <sortiername>Gropler, Joachim</sortiername>
-    <gnd>119692864</gnd>
-    <vorkommenBeteiligt>1</vorkommenBeteiligt>
-  </person>
-  <person>
-    <vorname>Simon</vorname>
-    <nachname>Roter</nachname>
-    <sortiername>Roter, Simon</sortiername>
-    <gnd>119810395</gnd>
-    <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
   <person>
     <vorname>Roberto</vorname>
@@ -24900,7 +24894,7 @@
     <name>Margarete</name>
     <beiname>Frankreich, K&#xF6;nigin, 1553-1615</beiname>
     <titel>de</titel>
-    <sortiername>Navarre, Marguerite de, Frankreich, K&#xF6;nigin</sortiername>
+    <sortiername>Margarete, Frankreich, K&#xF6;nigin</sortiername>
     <gnd>118577700</gnd>
     <lebensdaten>1553&#x2013;1615</lebensdaten>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
@@ -25264,16 +25258,18 @@
     <vorkommenAutor>1</vorkommenAutor>
   </person>
   <person>
-    <vorname>Caspar</vorname>
-    <nachname>Wolf</nachname>
-    <sortiername>Wolf, Caspar</sortiername>
-    <gnd>100131603</gnd>
-    <lebensdaten>1525&#x2013;1601</lebensdaten>
-    <vorkommenAutor>1</vorkommenAutor>
-    <beaconResults>
-      <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd100131603.html</link>
-      <link>Kalliope Verbundkatalog#http://kalliope.staatsbibliothek-berlin.de/de/eac?eac.id=100131603</link>
-    </beaconResults>
+    <vorname>Joachim</vorname>
+    <nachname>Gropler</nachname>
+    <sortiername>Gropler, Joachim</sortiername>
+    <gnd>119692864</gnd>
+    <vorkommenBeteiligt>1</vorkommenBeteiligt>
+  </person>
+  <person>
+    <vorname>Simon</vorname>
+    <nachname>Roter</nachname>
+    <sortiername>Roter, Simon</sortiername>
+    <gnd>119810395</gnd>
+    <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
   <person>
     <vorname>Jacques</vorname>
@@ -25799,6 +25795,18 @@
     </beaconResults>
   </person>
   <person>
+    <vorname>Caspar</vorname>
+    <nachname>Wolf</nachname>
+    <sortiername>Wolf, Caspar</sortiername>
+    <gnd>100131603</gnd>
+    <lebensdaten>1525&#x2013;1601</lebensdaten>
+    <vorkommenAutor>1</vorkommenAutor>
+    <beaconResults>
+      <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd100131603.html</link>
+      <link>Kalliope Verbundkatalog#http://kalliope.staatsbibliothek-berlin.de/de/eac?eac.id=100131603</link>
+    </beaconResults>
+  </person>
+  <person>
     <vorname>Mu&#x1E25;ammad</vorname>
     <nachname>Ibn-Umail</nachname>
     <name>Zadith ben Hamuel</name>
@@ -25968,7 +25976,7 @@
     <nachname>Madrutius</nachname>
     <name>Christoph</name>
     <beiname>Brixen, Bischof</beiname>
-    <sortiername>Madrutius, Christophorus, Brixen, Bischof</sortiername>
+    <sortiername>Christoph, Brixen, Bischof</sortiername>
     <gnd>12959203X</gnd>
     <lebensdaten>1512&#x2013;1578</lebensdaten>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
@@ -26087,12 +26095,6 @@
     <beaconResults>
       <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd11969252X.html</link>
     </beaconResults>
-  </person>
-  <person>
-    <vorname>Lasarus</vorname>
-    <nachname>Sprengler</nachname>
-    <sortiername>Sprengler, Lasarus</sortiername>
-    <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
   <person>
     <vorname>Jost</vorname>
@@ -26664,18 +26666,6 @@
     <vorkommenVerleger>1</vorkommenVerleger>
   </person>
   <person>
-    <vorname>Friedrich</vorname>
-    <nachname>Peypus</nachname>
-    <sortiername>Peypus, Friedrich</sortiername>
-    <gnd>129085154</gnd>
-    <vorkommenVerleger>2</vorkommenVerleger>
-    <beaconResults>
-      <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd129085154.html</link>
-      <link>Digitaler Portraitindex#http://www.portraitindex.de/dokumente/pnd/129085154</link>
-      <link>Virtuelles Kupferstichkabinett#http://www.virtuelles-kupferstichkabinett.de/index.php?reset=1&amp;subPage=search&amp;selTab=2&amp;habFilter=1&amp;haumFilter=1&amp;selFilter=0&amp;sKey1=pzusatz&amp;sWord1=129085154</link>
-    </beaconResults>
-  </person>
-  <person>
     <vorname>Ulrich</vorname>
     <nachname>R&#xFC;lein von Calw</nachname>
     <sortiername>R&#xFC;lein von Calw, Ulrich</sortiername>
@@ -26719,6 +26709,12 @@
       <link>Kalliope Verbundkatalog#http://kalliope.staatsbibliothek-berlin.de/de/eac?eac.id=116777281</link>
       <link>Digitaler Portraitindex#http://www.portraitindex.de/dokumente/pnd/116777281</link>
     </beaconResults>
+  </person>
+  <person>
+    <vorname>Lasarus</vorname>
+    <nachname>Sprengler</nachname>
+    <sortiername>Sprengler, Lasarus</sortiername>
+    <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
   <person>
     <vorname>Tilmann</vorname>
@@ -26778,6 +26774,18 @@
     <sortiername>Pigaciis, Nicoletus de</sortiername>
     <gnd>129050741</gnd>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
+  </person>
+  <person>
+    <vorname>Friedrich</vorname>
+    <nachname>Peypus</nachname>
+    <sortiername>Peypus, Friedrich</sortiername>
+    <gnd>129085154</gnd>
+    <vorkommenVerleger>2</vorkommenVerleger>
+    <beaconResults>
+      <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd129085154.html</link>
+      <link>Digitaler Portraitindex#http://www.portraitindex.de/dokumente/pnd/129085154</link>
+      <link>Virtuelles Kupferstichkabinett#http://www.virtuelles-kupferstichkabinett.de/index.php?reset=1&amp;subPage=search&amp;selTab=2&amp;habFilter=1&amp;haumFilter=1&amp;selFilter=0&amp;sKey1=pzusatz&amp;sWord1=129085154</link>
+    </beaconResults>
   </person>
   <person>
     <vorname>Joannes</vorname>

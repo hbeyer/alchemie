@@ -22,7 +22,11 @@ Korrekturen an den heruntergelandenen Namensformen können in der Datei korrektu
 Die Fuktion $personList->insertAmendments sorgt dafür, dass jeweils die angegebenen Felder im Datensatz mit der
 angegebenen GND-Nummer überschrieben werden.
 
-Das Skript reichert die Daten außerdem mit Links an, die aus Beacon-Dateien gebildet werden. Die Dateien liegen im Verzeichnis beaconFiles, die zugehörigen Funktionen in storeBeacon.php. In der Datei beaconSources.php ist festgelegt, welche online erreichbaren Beacon-Dateien ausgewertet werden. Die Funktion cacheBeacon sorgt dafür, dass die Beacon-Dateien vor dem Auswerten neu gespeichert werden, wenn sie älter als die im Parameter festgelegte Anzahl von Sekunden sind.
+Das Skript reichert die Daten außerdem mit Links an, die aus Beacon-Dateien gebildet werden. Die Dateien liegen im 
+Verzeichnis beaconFiles, die zugehörigen Funktionen in storeBeacon.php. In der Datei beaconSources.php ist festgelegt, 
+welche online erreichbaren Beacon-Dateien ausgewertet werden. Die Funktion cacheBeacon sorgt dafür, dass die 
+Beacon-Dateien vor dem Auswerten neu gespeichert werden, wenn sie älter als die im Parameter festgelegte Anzahl 
+von Sekunden sind.
 
 */
 
@@ -122,7 +126,6 @@ class personList {
 				$personData = $node->childNodes;
 				$personOccurrence->importNodeList($personData);
 				$personOccurrence->rearrangeSubfields();
-				var_dump($personOccurrence);
 				$this->addPerson($personOccurrence);
 			}
 		}
@@ -246,7 +249,16 @@ class person {
 		if(isset($this->subfields['0'])) {
 			$this->gnd = $this->trimGND($this->subfields['0']);
 		}
-		$concordance = array('d' => 'vorname', 'a' => 'nachname', 'c' => 'titel', 'n' => 'zaehlung', 'E' => 'geburtsjahr', 'F' => 'sterbejahr', 'P' => 'name', 'l' => 'beiname', 'B' => 'beziehungskennzeichnung');
+		$concordance = array(
+			'd' => 'vorname', 
+			'a' => 'nachname', 
+			'c' => 'titel', 
+			'n' => 'zaehlung', 
+			'E' => 'geburtsjahr', 
+			'F' => 'sterbejahr', 
+			'P' => 'name', 
+			'l' => 'beiname', 
+			'B' => 'beziehungskennzeichnung');
 		foreach($concordance as $code => $field) {
 			if(isset($this->subfields[$code])) {
 				$this->$field = $this->subfields[$code];
