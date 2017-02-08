@@ -1,12 +1,12 @@
 #FORMAT: BEACON
 #PREFIX: http://d-nb.info/gnd/
-#TARGET: http://cgi-host.uni-marburg.de/~omgesa/gs/xs1.php?f1=pnd&s1={ID}
-#FEED: http://www.online.uni-marburg.de/fpmr/pnd.txt
-#CONTACT: JÃ¶rg Witzel <joerg.witzel@staff.uni-marburg.de>
-#INSTITUTION: Forschungsstelle fÃ¼r Personalschriften
+#TARGET: https://www.online.uni-marburg.de/fpmr/php/gs/xs2.php?f1=pnd&s1={ID}
+#FEED: https://www.online.uni-marburg.de/fpmr/pnd.txt
+#CONTACT: Jörg Witzel <joerg.witzel@staff.uni-marburg.de>
+#INSTITUTION: Forschungsstelle für Personalschriften
 #NAME: Gesamtkatalog deutschsprachiger Leichenpredigten (GESA)
 #MESSAGE: Leichenpredigten 1550-1800 (GESA)
-#TIMESTAMP: 2016-05-09
+#TIMESTAMP: 2017-02-08
 100000193|4
 100006000|1
 100006353|9

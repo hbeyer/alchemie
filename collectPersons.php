@@ -36,7 +36,7 @@ ini_set("max_execution_time", 600);
 
 $personList = new personList;
 $startRecord = 1;
-$maximumRecords = 100;
+$maximumRecords = 200;
 $test = 'not_finished';
 while($test == 'not_finished') {
 	$test = $personList->loadFromSRU($startRecord, $maximumRecords);
@@ -57,7 +57,7 @@ class personList {
 		'028C' => 'beteiligt',
 		'033J' => 'verleger'
 		);
-
+	
 	function addPerson($person) {
 		if(is_object($person) == FALSE) {
 			return;
@@ -82,14 +82,29 @@ class personList {
 		}
 		foreach($this->content as $personOld) {
 			// Wenn die neue Person auf diese Art nicht zugeordnet werden konnte, wird geprüft, ob es bereits eine mit identischem Sortiernamen gibt.
-			if($person->vorname == $personOld->vorname and $person->nachname == $personOld->nachname) {
-				$personOld->vorkommenAutor += $person->vorkommenAutor;
-				$personOld->vorkommenBeteiligt += $person->vorkommenBeteiligt;
-				$personOld->vorkommenVerleger += $person->vorkommenVerleger;
-				return;
+			if($person->sortiername == $personOld->sortiername) {
+				//Fall 1: Die vorhandene Person hat eine GND
+				if($personOld->gnd != '') {
+					$personOld->vorkommenAutor += $person->vorkommenAutor;
+					$personOld->vorkommenBeteiligt += $person->vorkommenBeteiligt;
+					$personOld->vorkommenVerleger += $person->vorkommenVerleger;
+					return;
+				}
+				//Fall 2: Die vorhandene Person hat keine GND
+				else {
+					$person->vorkommenAutor += $personOld->vorkommenAutor;
+					$person->vorkommenBeteiligt += $personOld->vorkommenBeteiligt;
+					$person->vorkommenVerleger += $personOld->vorkommenVerleger;
+					$personOld = $person;
+					var_dump($personOld);
+					echo "\r\nErsetzt durch:";
+					echo "\r\n";
+					var_dump($person);
+					return;
+				}
 			}
 		}
-		if($person->vorname or $person->nachname) {
+		if($person->sortiername) {
 			$this->content[] = $person;
 		}
 	}
@@ -136,8 +151,8 @@ class personList {
 	function insertAmendments() {
 		require_once('korrekturliste.php');
 		foreach($this->content as $person) {
-			if(isset($amendments[$person->gnd])) {
-				foreach($amendments[$person->gnd] as $field => $value) {
+			if(isset($amendmentsGND[$person->gnd])) {
+				foreach($amendmentsGND[$person->gnd] as $field => $value) {
 					$person->$field = $value;
 				}
 			}		
@@ -278,6 +293,9 @@ class person {
 	}
 	
 	function makeSortingName() {
+		$titel = '';
+		$zaehlung = '';
+		$beiname = '';
 		if($this->vorname and $this->nachname) {
 			$titel = '';
 			$zaehlung = '';
@@ -307,6 +325,10 @@ class person {
 			$this->sortiername = $this->nachname;
 			$this->nachname = '';
 		}
+		elseif($this->name != '') {
+			$this->sortiername = $this->name;
+		}
+		$this->replaceSortingName();
 	}
 	
 	function removeRedundant() {
@@ -320,6 +342,21 @@ class person {
 		$translation = array('gnd/' => '');
 		$string = strtr($string, $translation);
 		return($string);
+	}
+	
+	//Diese Funktion ersetzt in den angegebenen Fällen den Sortiernamen, um Dubletten vor dem Einfügen in die personList abzufangen.
+	//Auf Ebene der personList wird anschließend die Funktion personList->insertAmendments() aufgerufen, die aus der Datei korrekturliste.php 
+	//Ersetzungen für bestimmte GND-Nummern einfügt.
+	function replaceSortingName() {
+		$amendmentsSortingName = array(
+			'Dillenius, Justus Fridericus' => 'Dillenius, Justus Friedrich',
+			//'' => '',
+			'Doude, Arnoldus' => 'Doude, Aernout'
+			);
+			
+			if(isset($amendmentsSortingName[$this->sortiername])) {
+				$this->sortiername = $amendmentsSortingName[$this->sortiername];
+			}
 	}
 
 }

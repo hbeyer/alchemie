@@ -7,9 +7,12 @@ Für jede einzelne wird ein assoziatives Array in das Array $amendments eingefü
 steht die GND-Nummer. Als Wert steht wiederum ein assoziatives Array, in dem für ein oder 
 mehrere Felder Werte nach dem Schema 'Feldname' => 'Feldinhalt' neu vergeben werden können.
 Feldname kann sein: vorname, nachname, name, beiname, titel, zaehlung, koerperschaftsname, sortiername.
+
+Das Umlenken von Sortiernamen ist außerdem auf Ebene der person möglich, s. dazu person->replaceSortingName()
+Diese Funktion bewirkt, dass dublette Einträge überhaupt nicht als eigene person in die personList gelangen.
 */
 
-$amendments = array(
+$amendmentsGND = array(
 	'1042346275' => array('koerperschaftsname' => 'Helwing, Akademische Verlagsbuchhandlung', 'sortiername' => 'Helwing, Akademische Verlagsbuchhandlung'),
 	'118683969' => array('sortiername' => 'Fleury, André Hercule Cardinal de'),
 	'120530791' => array('sortiername' => 'Croÿ, Charles III. de'),
@@ -28,5 +31,6 @@ $amendments = array(
 	'121292215' => array('sortiername' => 'Zur Lippe- Brake, Amalie'),
 	'1037525493' => array('sortiername' => 'Bellère, Balthazar', 'nachname' => 'Bellère')
 );
+
 
 ?>
