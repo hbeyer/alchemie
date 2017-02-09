@@ -29,6 +29,7 @@ $amendmentsGND = array(
 	'129746436' => array('sortiername' => 'Tenison, Thomas'),
 	'118507036' => array('sortiername' => 'Basilius, Valentinus'),
 	'121292215' => array('sortiername' => 'Zur Lippe- Brake, Amalie'),
+	'1008744-8' => array('sortiername' => ''), //Cambridge University Press
 	'1037525493' => array('sortiername' => 'Bellère, Balthazar', 'nachname' => 'Bellère')
 );
 
