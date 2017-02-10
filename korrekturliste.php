@@ -13,7 +13,7 @@ Diese Funktion bewirkt, dass dublette Einträge überhaupt nicht als eigene pers
 */
 
 $amendmentsGND = array(
-	'1042346275' => array('koerperschaftsname' => 'Helwing, Akademische Verlagsbuchhandlung', 'sortiername' => 'Helwing, Akademische Verlagsbuchhandlung'),
+	'1042346275' => array('sortiername' => ''), //Helwing, Akademische Verlagsbuchhandlung
 	'118683969' => array('sortiername' => 'Fleury, André Hercule Cardinal de'),
 	'120530791' => array('sortiername' => 'Croÿ, Charles III. de'),
 	'118557203' => array('sortiername' => 'Jean de Meung'),
