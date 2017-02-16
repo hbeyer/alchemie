@@ -19,8 +19,6 @@ kennzeichnung für darin enthaltene Personen angegeben ist. Als Beziehungskennze
 $target: Die abzufragende SRU-Schnittstelle
 
 Korrekturen an den heruntergelandenen Namensformen können in der Datei korrekturliste.php vorgenommen werden.
-Die Fuktion $personList->insertAmendments sorgt dafür, dass jeweils die angegebenen Felder im Datensatz mit der
-angegebenen GND-Nummer überschrieben werden.
 
 Das Skript reichert die Daten außerdem mit Links an, die aus Beacon-Dateien gebildet werden. Die Dateien liegen im 
 Verzeichnis beaconFiles, die zugehörigen Funktionen in storeBeacon.php. In der Datei beaconSources.php ist festgelegt, 
