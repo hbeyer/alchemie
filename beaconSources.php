@@ -8,9 +8,9 @@ $beaconSources = array(
 	),
 	'ddb' => array(
 		'label' => 'Deutsche Digitale Bibliothek',
-		'location' => 'https://www.archivportal-d.de/static/de/beacon-archivportal-persons.txt',
-		'target' => 'https://www.archivportal-d.de/person/gnd/{ID}'
-	), 	
+		'location' => 'https://www.deutsche-digitale-bibliothek.de/beacon/beacon-ddb-persons.txt',
+		'target' => 'https://www.deutsche-digitale-bibliothek.de/entity/{ID}'
+	),
 	'db' => array(
 		'label' => 'Deutsche Biographie',
 		'location' => 'http://www.historische-kommission-muenchen-editionen.de/beacon_db_register.txt',
