@@ -40,6 +40,7 @@ while($test == 'not_finished') {
 	$test = $personList->loadFromSRU($startRecord, $maximumRecords);
 	$startRecord += $maximumRecords;
 }
+$personList->makeSearchNames();
 $personList->insertBeacon();
 $personList->makeXML('personList-test.xml');
 
@@ -91,6 +92,8 @@ class personList {
 					$person->vorkommenAutor += $personOld->vorkommenAutor;
 					$person->vorkommenBeteiligt += $personOld->vorkommenBeteiligt;
 					$person->vorkommenVerleger += $personOld->vorkommenVerleger;
+					$person->searchNameArray = array_merge($person->searchNameArray, $personOld->searchNameArray);
+					$person->searchNameArray = array_unique($person->searchNameArray);
 					$personOld = $person;
 					return;
 				}
@@ -169,6 +172,13 @@ class personList {
 		return($result);
 	}
 	
+	function makeSearchNames() {
+		foreach($this->content as $person) {
+			$person->searchName = implode('|', $person->searchNameArray);
+			$person->searchNameArray = array();
+		}
+	}
+	
 	function makeXML($path) {
 		$xml = new DOMDocument('1.0', 'UTF-8');
 		$xml->formatOutput = true;
@@ -218,6 +228,8 @@ class person {
 	public $koerperschaftsname;
 	public $sortiername;
 	public $gnd;
+	public $searchName;
+	public $searchNameArray = array();
 	public $lebensdaten;
 	public $geburtsjahr;
 	public $sterbejahr;
@@ -313,6 +325,7 @@ class person {
 		elseif($this->name != '') {
 			$this->sortiername = $this->name;
 		}
+		$this->searchNameArray[] = $this->sortiername;
 		$this->insertAmendments();
 	}
 	
@@ -333,6 +346,7 @@ class person {
 			include('korrekturliste.php');
 			if(isset($amendmentsSortingName[$this->sortiername])) {
 				$this->sortiername = $amendmentsSortingName[$this->sortiername];
+				$this->searchNameArray[] = $this->sortiername;
 			}
 			if(isset($amendmentsGND[$this->gnd]) and preg_match('~[0-9X]{7}~', $this->gnd)) {
 				foreach($amendmentsGND[$this->gnd] as $field => $value) {
