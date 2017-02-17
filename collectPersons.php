@@ -34,7 +34,7 @@ ini_set("max_execution_time", 600);
 
 $personList = new personList;
 $startRecord = 1;
-$maximumRecords = 200;
+$maximumRecords = 500;
 $test = 'not_finished';
 while($test == 'not_finished') {
 	$test = $personList->loadFromSRU($startRecord, $maximumRecords);
@@ -63,10 +63,10 @@ class personList {
 			return;
 		}
 		elseif(preg_match('~[0-9X]{7}~', $person->sortiername) or trim($person->sortiername) == '') {
-			echo 'Nicht aufgenommen, da ohne Sortiername:'."\r\n";
+			/* echo 'Nicht aufgenommen, da ohne Sortiername:'."\r\n";
 			var_dump($person);
 			echo "\r\n";
-			return;
+			return; */
 		}
 		foreach($this->content as $personOld) {
 			// Wenn die neue Person eine GND hat und diese bereits vorkommt, wird sie nicht eingefügt, sondern das Vorkommen in der vorhandenen addiert.
@@ -88,7 +88,11 @@ class personList {
 					return;
 				}
 				//Fall 2: Die vorhandene Person hat keine GND
-				else {
+				else {			
+					/* echo "Vorhanden: \r\n";
+					var_dump($personOld);
+					echo "Neu: \r\n";
+					var_dump($personOld);	 */			
 					$person->vorkommenAutor += $personOld->vorkommenAutor;
 					$person->vorkommenBeteiligt += $personOld->vorkommenBeteiligt;
 					$person->vorkommenVerleger += $personOld->vorkommenVerleger;
@@ -203,11 +207,6 @@ class personList {
 					$propertyNode->appendChild($propertyValue);
 					$personNode->appendChild($propertyNode);
 				}
-				
-				elseif($key == 'sortiername' and $value == '') {
-					var_dump($person);
-				}
-				
 			}
 			$rootNode->appendChild($personNode);
 		}
@@ -343,7 +342,7 @@ class person {
 	}
 	
 	function insertAmendments() {
-			include('korrekturliste.php');
+			include('korrekturliste.php');			
 			if(isset($amendmentsSortingName[$this->sortiername])) {
 				$this->sortiername = $amendmentsSortingName[$this->sortiername];
 				$this->searchNameArray[] = $this->sortiername;
