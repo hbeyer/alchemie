@@ -34,7 +34,7 @@ ini_set("max_execution_time", 600);
 
 $personList = new personList;
 $startRecord = 1;
-$maximumRecords = 500;
+$maximumRecords = 200;
 $test = 'not_finished';
 while($test == 'not_finished') {
 	$test = $personList->loadFromSRU($startRecord, $maximumRecords);
@@ -188,8 +188,9 @@ class personList {
 	
 	function makeSearchNames() {
 		foreach($this->content as $person) {
-			$person->searchName = implode('|', $person->searchNameArray);
-			$person->searchNameArray = array();
+			if($person->gnd == '') {
+				$person->makeSearchURL();
+			}
 		}
 	}
 	
@@ -212,7 +213,8 @@ class personList {
 						}
 						$personNode->appendChild($propertyNode);
 					}
-					elseif($value != '' and $value != array()) {
+					//elseif($value != '' and $value != array()) {
+					elseif($value != '' and is_array($value) == FALSE) {
 						$propertyNode = $xml->createElement($key);
 						$propertyValue = $xml->createTextNode($value);
 						$propertyNode->appendChild($propertyValue);
@@ -239,7 +241,7 @@ class person {
 	public $koerperschaftsname;
 	public $sortiername;
 	public $gnd;
-	public $searchName;
+	public $searchURL;
 	public $searchNameArray = array();
 	public $lebensdaten;
 	public $geburtsjahr;
@@ -353,13 +355,22 @@ class person {
 		return($string);
 	}
 	
-	// Problem: Wenn zuerst der Sortiername einer GND-Person umgeschrieben wird und dann ein anderer Datensatz auf die ursprüngliche Form umgelengt werden soll. Beispiel: 
 	function insertAmendments() {
 		include('korrekturliste.php');			
 		if(isset($amendmentsSortingName[$this->sortiername])) {
 			$this->sortiername = $amendmentsSortingName[$this->sortiername];
 			$this->searchNameArray[] = $this->sortiername;
 		}
+	}
+	
+	function makeSearchURL() {
+		$searchKey = 'aut';
+		$searchString = implode('|', $this->searchNameArray);
+		if($this->vorkommenVerleger > 0) {
+			$searchKey = 'vlg';
+		}
+		$this->searchURL = 'http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&TRM='.$searchKey.'+%28'.$searchString.'%29+and+mak+a*+and+abr+alchemie';
+		$this->searchArray = array();
 	}
 
 }
