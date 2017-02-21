@@ -41,6 +41,7 @@ while($test == 'not_finished') {
 	$startRecord += $maximumRecords;
 }
 $personList->makeSearchNames();
+$personList->insertAmendmentsGND();
 $personList->insertBeacon();
 $personList->makeXML('personList-test.xml');
 
@@ -65,8 +66,8 @@ class personList {
 		elseif(preg_match('~[0-9X]{7}~', $person->sortiername) or trim($person->sortiername) == '') {
 			/* echo 'Nicht aufgenommen, da ohne Sortiername:'."\r\n";
 			var_dump($person);
-			echo "\r\n";
-			return; */
+			echo "\r\n"; */
+			return;
 		}
 		foreach($this->content as $personOld) {
 			// Wenn die neue Person eine GND hat und diese bereits vorkommt, wird sie nicht eingefügt, sondern das Vorkommen in der vorhandenen addiert.
@@ -88,17 +89,13 @@ class personList {
 					return;
 				}
 				//Fall 2: Die vorhandene Person hat keine GND
-				else {			
-					/* echo "Vorhanden: \r\n";
-					var_dump($personOld);
-					echo "Neu: \r\n";
-					var_dump($personOld);	 */			
-					$person->vorkommenAutor += $personOld->vorkommenAutor;
-					$person->vorkommenBeteiligt += $personOld->vorkommenBeteiligt;
-					$person->vorkommenVerleger += $personOld->vorkommenVerleger;
-					$person->searchNameArray = array_merge($person->searchNameArray, $personOld->searchNameArray);
-					$person->searchNameArray = array_unique($person->searchNameArray);
-					$personOld = $person;
+				else {
+					$personOld->vorkommenAutor += $person->vorkommenAutor;
+					$personOld->vorkommenBeteiligt += $person->vorkommenBeteiligt;
+					$personOld->vorkommenVerleger += $person->vorkommenVerleger;
+					$personOld->searchNameArray = array_merge($person->searchNameArray, $personOld->searchNameArray);
+					$personOld->searchNameArray = array_unique($personOld->searchNameArray);
+					$personOld->gnd = $person->gnd;
 					return;
 				}
 			}
@@ -146,6 +143,19 @@ class personList {
 		return('not_finished');
 		//return('finished');
 	}
+	
+	function insertAmendmentsGND() {
+		include('korrekturliste.php');
+		$count = 0;
+		foreach($this->content as $person) {
+			if(isset($amendmentsGND[$person->gnd]) and $person->gnd != '') {
+				foreach($amendmentsGND[$person->gnd] as $key => $value) {
+					$person->$key = $value;
+				}
+			}
+			$count++;
+		}
+	}
 
 	function insertBeacon() {
 		$user = 'Dr. Hartmut Beyer, Wolfenbüttel';
@@ -189,26 +199,28 @@ class personList {
 		$xml->loadXML('<personList></personList>');
 		$rootNode = $xml->getElementsByTagName('personList')->item(0);
 		foreach($this->content as $person) {
-			$personNode = $xml->createElement('person');
-			foreach($person as $key => $value) {
-				if($key == 'beaconResults' and $value != array()) {
-					$propertyNode = $xml->createElement($key);
-					foreach($value as $link) {
-						$linkNode = $xml->createElement('link');
-						$linkValue = $xml->createTextNode($link);
-						$linkNode->appendChild($linkValue);
-						$propertyNode->appendChild($linkNode);
+			if($person->sortiername) {
+				$personNode = $xml->createElement('person');
+				foreach($person as $key => $value) {
+					if($key == 'beaconResults' and $value != array()) {
+						$propertyNode = $xml->createElement($key);
+						foreach($value as $link) {
+							$linkNode = $xml->createElement('link');
+							$linkValue = $xml->createTextNode($link);
+							$linkNode->appendChild($linkValue);
+							$propertyNode->appendChild($linkNode);
+						}
+						$personNode->appendChild($propertyNode);
 					}
-					$personNode->appendChild($propertyNode);
+					elseif($value != '' and $value != array()) {
+						$propertyNode = $xml->createElement($key);
+						$propertyValue = $xml->createTextNode($value);
+						$propertyNode->appendChild($propertyValue);
+						$personNode->appendChild($propertyNode);
+					}
 				}
-				elseif($value != '' and $value != array()) {
-					$propertyNode = $xml->createElement($key);
-					$propertyValue = $xml->createTextNode($value);
-					$propertyNode->appendChild($propertyValue);
-					$personNode->appendChild($propertyNode);
-				}
+				$rootNode->appendChild($personNode);
 			}
-			$rootNode->appendChild($personNode);
 		}
 		$handle = fopen($path, 'w');
 		fwrite($handle, $xml->saveXML(), 3000000);
@@ -341,17 +353,13 @@ class person {
 		return($string);
 	}
 	
+	// Problem: Wenn zuerst der Sortiername einer GND-Person umgeschrieben wird und dann ein anderer Datensatz auf die ursprüngliche Form umgelengt werden soll. Beispiel: 
 	function insertAmendments() {
-			include('korrekturliste.php');			
-			if(isset($amendmentsSortingName[$this->sortiername])) {
-				$this->sortiername = $amendmentsSortingName[$this->sortiername];
-				$this->searchNameArray[] = $this->sortiername;
-			}
-			if(isset($amendmentsGND[$this->gnd]) and preg_match('~[0-9X]{7}~', $this->gnd)) {
-				foreach($amendmentsGND[$this->gnd] as $field => $value) {
-					$this->$field = $value;
-				}				
-			}
+		include('korrekturliste.php');			
+		if(isset($amendmentsSortingName[$this->sortiername])) {
+			$this->sortiername = $amendmentsSortingName[$this->sortiername];
+			$this->searchNameArray[] = $this->sortiername;
+		}
 	}
 
 }
