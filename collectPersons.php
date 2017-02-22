@@ -33,16 +33,24 @@ date_default_timezone_set('Europe/Amsterdam');
 ini_set("max_execution_time", 600);
 
 $personList = new personList;
-$startRecord = 1;
+
+//Mit dem Folgenden werden die Daten per SRU geladen und in einer Datei zwischengespeichert
+/* $startRecord = 1;
 $maximumRecords = 200;
 $test = 'not_finished';
 while($test == 'not_finished') {
 	$test = $personList->loadFromSRU($startRecord, $maximumRecords);
 	$startRecord += $maximumRecords;
 }
-$personList->makeSearchNames();
+
 $personList->insertAmendmentsGND();
 $personList->insertBeacon();
+$personList->dumpToFile('cache'); */
+
+
+$personList->loadFromFile('cache');
+$personList->makeSearchNames();
+var_dump($personList);
 $personList->makeXML('personList-test.xml');
 
 class personList {
@@ -188,10 +196,18 @@ class personList {
 	
 	function makeSearchNames() {
 		foreach($this->content as $person) {
-			if($person->gnd == '') {
-				$person->makeSearchURL();
-			}
+			$person->makeSearchURL();
 		}
+	}
+	
+	function dumpToFile($name) {
+		$serialize = serialize($this->content);
+		file_put_contents($name, $serialize);
+	}
+	
+	function loadFromFile($name) {
+		$string = file_get_contents($name);
+		$this->content = unserialize($string);
 	}
 	
 	function makeXML($path) {
@@ -362,14 +378,44 @@ class person {
 			$this->searchNameArray[] = $this->sortiername;
 		}
 	}
-	
+
 	function makeSearchURL() {
-		$searchKey = 'aut';
+		$request = '';
 		$searchString = implode('|', $this->searchNameArray);
-		if($this->vorkommenVerleger > 0) {
-			$searchKey = 'vlg';
+		if(isset($searchNameArray[1])) {
+			$searchString = '('.$searchString.')';
 		}
-		$this->searchURL = 'http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&TRM='.$searchKey.'+%28'.$searchString.'%29+and+mak+a*+and+abr+alchemie';
+		$testPer = 0;
+		$testDru = 0;
+		if($this->vorkommenAutor > 0 or $this->vorkommenBeteiligt > 0) {
+			$testPer = 1;
+		}
+		if($this->vorkommenVerleger > 0) {
+			$testDru = 1;
+		}
+		if($this->gnd) {
+			if($testDru == 1 and $testPer == 1) {
+				$request = '(gnd+'.$this->gnd.'+or+dru+'.$searchString.')';
+			}
+			elseif($testDru == 1) {
+				$request = '(gnd+'.$this->gnd.'+or+dru+'.$searchString.')';
+			}
+			elseif($testPer == 1) {
+				$request = 'gnd+'.$this->gnd;
+			}			
+		}
+		else {
+			if($testDru == 1 and $testPer == 1) {
+				$request = '(per+'.$searchString.'+or+dru+'.$searchString.')';
+			}
+			elseif($testDru == 1) {
+				$request = 'dru+'.$searchString;
+			}
+			elseif($testPer == 1) {
+				$request = 'per+'.$searchString;
+			}						
+		}
+		$this->searchURL = 'http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&TRM='.$request.'+and+abr+alchemie';
 		$this->searchArray = array();
 	}
 
