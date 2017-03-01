@@ -20,11 +20,13 @@ $amendmentsSortingName = array(
 	'Albrecht Sigismund Bischof zu Freising' => 'Albert Sigmund, Bischof von Freising',
 	'Alfonso Castilla, Rey, X.' => 'Alfonso X., König von Kastilien',
 	'Anna Margaretha Hessen-Darmstadt, Landgräfin' => 'Anna Margaretha, Landgräfin von Hessen-Darmstadt',
+	'Anna Maria Herzogin in Schlesien zur Liegnitz und Brieg' => 'Anna Maria, Herzogin in Schlesien zur Liegnitz und Brieg',
 	'Anomaeus, Joh. Joachimus' => 'Anomoeus, Johannes Joachim',
 	'Anselmus Franciscus Moguntiae Archiepiscopus' => 'Anselm Franz, Erzbischof von Mainz',
 	'Anton Ulrich Braunschweig-Wolfenbüttel, Herzog' => 'Anton Ulrich, Herzog zu Braunschweig-Wolfenbüttel',
 	'Antonius Gunterus Comes in Oldenburg' => 'Anton Günther, Graf von Oldenburg',
 	'Antonius Guntherus Comes in Oldenburg & Delmenhorst' => 'Anton Günther, Graf von Oldenburg',
+	'Anthonius Günther Graf zu Schwartzburg und Honstein' => 'Anthonius Günther, Graf zu Schwartzburg und Honstein',
 	'Arndt. Joh.' => 'Arndt, Johann',
 	'Arnoldus de Villaenova' => 'Arnoldus de Villa Nova',
 	'Arnoldus Jodocus Comes Benthemiae' => 'Arnoldus Jodocus, Graf von Bentheim',
@@ -80,13 +82,14 @@ $amendmentsSortingName = array(
 	'Christian Marggraf zu Brandenburg' => 'Christian, Markgraf von Brandenburg-Kulmbach',
 	'Christianus Marchio Brandenburgensis' => 'Christian, Markgraf von Brandenburg-Kulmbach',
 	'Christian Günther Graf in Schwarzburg und Hohenstein' => 'Christian Günther, Graf zu Schwartzburg und Honstein',
+	'Christian Günther Graf zu Schwartzburg und Honstein' => 'Christian Günther, Graf zu Schwartzburg und Honstein',
 	'Christian Wilhelm Brandenburg, Markgraf' => 'Christian Wilhelm, Markgraf zu Brandenburg',
 	'Christianus Albertus Princeps' => 'Christian Albrecht, Herzog von Schleswig-Holstein-Gottorf',
 	'Christianus Guilelmus Archiepiscopus Magdeburgensis' => 'Christian Wilhelm, Erzbischof von Magdeburg',
 	'Christianus Wilhelmus Archiepiscopus Magdeburgensis' => 'Christian Wilhelm, Erzbischof von Magdeburg',
 	'Christianus Wilhelmus Postulatus Administrator Archiepiscopatus Magdeburgensis Marchio Brandenburgicus' => '', // redundant
 	'Christianus Wilhelmus Marggraff zu Brandenburg' => 'Christian Wilhelm, Markgraf zu Brandenburg',
-	'Christianus Herzog in Schlesien zur Liegnitz und Brieg' => '	Christian, Herzog von Schlesien-Liegnitz-Brieg',
+	'Christianus Herzog in Schlesien zur Liegnitz und Brieg' => 'Christian, Herzog von Schlesien-Liegnitz-Brieg',
 	'Christianus Ascanieae, Comes' => 'Christian, Fürst von Anhalt-Bernburg',
 	'Christianus Comes Ascaniae' => 'Christian, Fürst von Anhalt-Bernburg',
 	'Christian Anhalt-Bernburg, Fürst' => 'Christian, Fürst von Anhalt-Bernburg',
@@ -124,7 +127,7 @@ $amendmentsSortingName = array(
 	'Ernestus Comes Holsatiae' => 'Ernst, Graf von Holstein-Schaumburg',
 	'Ernestus Holsatia-Schaumburg-Sternberk, Comes' => 'Ernst, Graf von Holstein-Schaumburg',	
 	'Ernst Holstein-Schaumburg, Graf' => 'Ernst,Graf von Holstein-Schaumburg',	
-	'Ernestus Comes de Oetingen, Dominus in Wallerstain' => 'Oettingen-Wallerstein, Ernst', //Person ohne Titel?
+	'Ernestus Comes de Oetingen, Dominus in Wallerstain' => 'Ernst, Graf von Oettingen-Wallerstein', //Person ohne Titel?
 	'Ernst August Hannover, Kurfürst, I.' => 'Ernst August I., Hannover, Kurfürst', // Umleitung auf GND
 	
 	'Faber, Georgius' => 'Faber, Georg',
@@ -159,6 +162,7 @@ $amendmentsSortingName = array(
 	'Franckenberg, Abraham vom' => 'Frankenberg, Abraham von',
 	'Franckenberg, Abraham von' => 'Frankenberg, Abraham von',
 	'François France, Prince, 1554-1584' => 'Franz Frankreich, Prinz, 1554-1584', //Umleitung auf GND
+	'Franz Carl Przehorschowsky Freiherr von Ovasegowiz auf Zbraslawiz' => 'Franz Carl Przehorschowsky, Freiherr von Ovasegowiz auf Zbraslawiz',
 	'Fridericus Dux Wirtembergicus & Teccensis' => 'Friedrich, Herzog von Württemberg',
 	'Fridercus Ulricus Dux Brunsvicensis & Lunaeburgensis' => 'Friedrich Ulrich, Herzog zu Braunschweig-Lüneburg',
 	'Fridericus Ulricus Dux Brunsvicensium ac Lunaeburgensium' => 'Friedrich Ulrich, Herzog zu Braunschweig-Lüneburg',
@@ -181,7 +185,7 @@ $amendmentsSortingName = array(
 	'Friedrich Ulrich Braunschweig-Lüneburg, Herzog' => 'Friedrich Ulrich, Herzog von Braunschweig-Wolfenbüttel',
 	'Friedrich Pfalz, Kurfürst, IV.' => 'Friedrich IV., Kurfürst von der Pfalz',
 	'Friedrich Pfalz, Kurfürst, V.' => 'Friedrich V., Kurfürst von der Pfalz',
-	'Friedrich Rhein, Pfalzgraf' => 'Friedrich Pfalzgraf bei Rhein',
+	'Friedrich Rhein, Pfalzgraf' => 'Friedrich, Pfalzgraf bei Rhein',
 	'Friedrich Sachsen-Gotha-Altenburg, Herzog, II.' => 'Friedrich II., Herzog von Sachsen-Gotha-Altenburg',
 	'Friedrich Schleswig-Holstein-Gottorf, Herzog, III.' => 'Friedrich III., Herzog von Schleswig-Holstein-Gottorf',
 	'Friderich Erzbischof zu Köln' => 'Friedrich, Erzbischof zu Köln',
@@ -206,6 +210,7 @@ $amendmentsSortingName = array(
 	'Götze, Thomas Matth.' => 'Götze, Thomas Matthias',
 	'Grosse, Henning, V.' => 'Grosse, Henning',
 	'Guilhelmus Henricus Comes Benthemiae' => 'Wilhelm Heinrich, Graf von Bentheim',
+	'Gulielmus Palatinus Rheni ac utriusque Bavariae Dux' => 'Wilhelm V. Herzog von Bayern',
 	'Gustavus Adolphus Der Reiche Schweden, Gothen und Wenden Christlicher König' => 'Gustav Adolf, König von Schweden',
 	
 	'Haffner, M.' => 'Haffner, Melchior',
@@ -219,6 +224,7 @@ $amendmentsSortingName = array(
 	'Hartungus, Valentinus' => 'Hartung, Valentinus',
 	'Helmont, Jan Baptista' => 'Helmont, Jan Baptista van',
 	'Helmont, Jan Baptiste van' => 'Helmont, Jan Baptista van',
+	'Helmstedt' => '', //entfällt
 	'Henricus Julius Dux Brunsvicensi ac Lunaeburgensi' => 'Heinrich Julius, Herzog zu Braunschweig-Lünbeurg',
 	'Heinrich Julius Braunschweig-Wolfenbüttel, Herzog' => 'Heinrich Julius, Herzog zu Braunschweig-Lünbeurg',
 	'Heinricus Julius Saxoniae Dux' => 'Julius Heinrich, Herzog von Sachsen-Lauenburg',
@@ -241,6 +247,7 @@ $amendmentsSortingName = array(
 	'Joachim Friderich Markgraf zu Brandenburg' => 'Joachim Friedrich, Kurfürst zu Brandenburg',
 	'Joachim Friedrich Brandenburg, Kurfürst' => 'Joachim Friedrich, Kurfürst zu Brandenburg',
 	'Joachim Friedrich Markgraf zu Brandenburg' => 'Joachim Friedrich, Kurfürst zu Brandenburg',
+	'Joachim Friderich Herzog in Schlesien zur Liegnitz und Brieg' => 'Joachim Friedrich, Herzog in Schlesien zur Liegnitz und Brieg',
 	'Joachimus Sigismundus Dux Saxoniae, Angriae & Westphaliae' => 'Joachim Sigismund, Herzog zu Sachsen',
 	'Joachimus Sigismundus Saxoniae Dux' => 'Joachim Sigismund, Herzog zu Sachsen',
 	'Joannes Albertus Comes de Oetingen, Dominus in Wallerstain' => 'Johann Albert, Graf zu Oettingen Wallenstein',
@@ -252,10 +259,14 @@ $amendmentsSortingName = array(
 	'Joachim Ernst Schleswig Holstein, Herzog' => 'Jochim Ernst, Herzog zu Schleswig-Holstein-Stormarn',
 	'Johann Ernst I., Sachsen-Weimar, Herzog.' => 'Johann Ernst I., Herzog von Sachsen-Weimar',
 	'Johann Ernst Sachsen-Eisenach, Herzog' => 'Johann Ernst, Herzog von Sachsen-Eisenach',
+	'Johan Friderich, Abt des Stifts Fulda' => 'Johann Friedrich, Fürstabt von Fulda',
+	'Johan Jacob Erzbischof zu Salzburg' => 'Johann Jacob, Erzbischof von Salzburg',
 	'Johann Philipp Herzog zu Sachsen, Jülich, Cleve und Bergen' => 'Johann Philipp, Herzog von Sachsen-Altenburg',
 	'Johann Wilhelm Herzog zu Sachsen, Jülich, Cleve und Bergen' => 'Johann Wilhelm, Herzog zu Sachsen, Jülich, Cleve und Berg', //unklar ob Weimar, Gotha oder Eisenach
 	'Johan Philipp Erzbischof zu Mainz' => 'Johann Philipp Mainz, Erzbischof', //Umleitung auf GND
 	'Johan. Georg Saxonia, Dux' => 'Johann Georg I., Anhalt-Dessau, Fürst',
+	'Johan Georg Fürst zu Anhalt' => 'Johann Georg I., Anhalt-Dessau, Fürst',
+	'Johan Augustus Graf zu Solms' => 'Johann August, Graf zu Solms',
 	'Johann Casimir Herzog zu Sachsen' => 'Johann Casimir, Herzog zu Sachsen, Jülich, Cleve und Bergen',
 	'Johann Casimirus Hertzog zu Sachsen, Gülich, Cleve und Bergk' => 'Johann Casimir, Herzog zu Sachsen, Jülich, Cleve und Bergen',
 	'Johann Casimir Sachsen-Coburg, Herzog' => 'Johann Casimir, Herzog zu Sachsen, Jülich, Cleve und Bergen',
@@ -298,8 +309,8 @@ $amendmentsSortingName = array(
 	'Laurembergius, Petrus' => 'Lauremberg, Peter',
 	'Leichnerus, E.' => 'Leichnerus, Eccardus',
 	'Leiden' => '',
-	'Leopold I., Römisch-Deutsches Reich, Kaiser' => 'Leopold I., Kaiser des Heiligen Römischen Reichs',
-	'Leopold Römisch-Deutsches Reich, Kaiser, I.' => 'Leopold I., Kaiser des Heiligen Römischen Reichs',
+	'Leopold I., Römisch-Deutsches Reich, Kaiser' => 'Leopold I., Heiliges Römisches Reich, Kaiser', //Umleitung GND
+	'Leopold Römisch-Deutsches Reich, Kaiser, I.' => 'Leopold I., Heiliges Römisches Reich, Kaiser', //Umleitung GND
 	'Leopold Wilhelm Österreich, Erzherzog' => 'Leopold Wilhelm, Erzherzog von Österreich',
 	'Leupold, J.' => 'Leupold, Jakob',
 	'Linck, Paulus' => 'Linck, Paul',
@@ -312,14 +323,16 @@ $amendmentsSortingName = array(
 	'London' => '', //entfällt
 	'Ludwig Leiningen, Graf' => 'Ludwig, Graf zu Leiningen',
 	'Ludwig VI. von der Pfalz' => 'Ludwig VI., Kurfürst von der Pfalz',
+	'Ludwig Günther Graf zu Schwartzburg und Honstein' => 'Ludwig Günther, Graf zu Schwartzburg und Honstein',
 	
 	'Maierus, Michael' => 'Maier, Michael',
 	'Manßfeldt, Christian Friderich zu' => 'Christian Friedrich, Graf zu Mansfeld',
 	'Manßfeldt, Hanß Georg Graf zu' => 'Hans Georg, Graf zu Mansfeld',
 	'Manßfeldt, Joachim Friedrich Graf zu' => 'Joachim Friedrich, Graf zu Mansfeld',
 	'Manßfeldt, Philipp Graf zu' => 'Philipp, Graf zu Mansfeld',
+	'Margarethe Elisabeth Landgräfin zu Hessen' => 'Margarethe Elisabeth, Landgräfin zu Hessen',
 	'Maria Eleonora Schweden, Königin' => 'Maria Eleonora, Königin von Schweden',
-	'Mauricius Dux Saxoniae' => 'Moritz, Kurfürst von Sachsen',
+	'Mauricius Dux Saxoniae' => 'Moritz Kurfürst von Sachsen', //Umleitung GND
 	'Mauritius Auracium, Princeps' => 'Maurits van Oranje-Nassau',
 	'Mauritius Hassiae Landgravius' => 'Moritz, Landgraf zu Hessen-Kassel',
 	'Mauritius Landgravius Hassiae' => 'Moritz, Landgraf zu Hessen-Kassel',
@@ -439,7 +452,7 @@ $amendmentsSortingName = array(
 	'Theodoricus, Georgius' => 'Theodorus, Georgius',
 	'Tyrrel, E.' => 'Tyrell, E.',
 	
-	'Ursula Herzogin zu Wirttemberg und Teckh' => '	Ursula, Herzogin zu Württemberg-Teck',
+	'Ursula Herzogin zu Wirttemberg und Teckh' => 'Ursula, Herzogin zu Württemberg-Teck',
 	'Ursula Herzogin zu Würtemberg und Teck' => 'Ursula, Herzogin zu Württemberg-Teck',
 	
 	'Verdris, Johannes Melchior' => 'Verdries, Johann Melchior',
@@ -466,6 +479,7 @@ $amendmentsSortingName = array(
 	'Wolffhard, Marcus' => 'Wolfhard, Marcus',
 	'Wust, Balthasar Christoph' => 'Wust, Balthasar Christoph, der Ältere',
 	'Wächtler, Caspar' => 'Wächtler, Kaspar',
+	'Würben und Freudenthal, Joannes Antonius, Reichsgraf von' => 'Joannes Antonius, Reichsgraf von Würben und Freudenthal',
 	'Zvingerus, Theodorus' => 'Zwinger, Theodor',
 	'Zwingerus, Jacobus' => 'Zwinger, Jakob'
 );
@@ -475,7 +489,7 @@ $amendmentsGND = array(
 	'118683969' => array('sortiername' => 'André Hercule Cardinal de Fleury'),
 	'120530791' => array('sortiername' => 'Charles III. de Croÿ'),
 	'118557203' => array('sortiername' => 'Jean de Meung'),
-	'118577700' => array('sortiername' => 'Margarete Königin von Frankreich'),
+	'118577700' => array('sortiername' => 'Margarete, Königin von Frankreich'),
 	'118637649' => array('sortiername' => 'Albertus Magnus'),
 	'100942040' => array('sortiername' => 'Del Garbo, Tommaso'),
 	'104066822' => array('sortiername' => 'Guglielmo, Herzog von Mantua'),
@@ -485,7 +499,7 @@ $amendmentsGND = array(
 	'11859169X' => array('sortiername' => 'Paracelsus'),
 	'104081589' => array('sortiername' => 'Portaleone, Avraham ben Da&#x1E7F;id'),
 	'129746436' => array('sortiername' => 'Tenison, Thomas'),
-	'118507036' => array('sortiername' => 'Basilius, Valentinus'),
+	'118507036' => array('sortiername' => 'Basilius Valentinus'),
 	'121292215' => array('sortiername' => 'Zur Lippe-Brake, Amalie'),
 	'1008744-8' => array('sortiername' => ''), //Cambridge University Press
 	'10211112X' => array('sortiername' => 'Ludwig VI., Kurfürst von der Pfalz'),
@@ -495,7 +509,7 @@ $amendmentsGND = array(
 	'6146279-2' => array('sortiername' => 'Löhneysen, Georg Engelhard von, Privatpresse'),
 	'119204150' => array('sortiername' => 'Richard Pfalzgraf zu Pfalz-Simmern'),
 	'118647571' => array('sortiername' => 'Albrecht V., Herzog von Bayern'),
-	'120064847' => array('sortiername' => 'Anna Sophia Kurfürstin von Sachsen'),
+	'120064847' => array('sortiername' => 'Anna Sophia, Kurfürstin von Sachsen'),
 	'1037529774' => array('sortiername' => 'Aubry, Johann II.'),
 	'12959203X' => array('sortiername' => 'Christoph Bischof von Brixen'),
 	'118638521' => array('sortiername' => 'Cosimo I., Großherzog der Toskana'),
@@ -518,6 +532,9 @@ $amendmentsGND = array(
 	'118692887' => array('sortiername' => 'Franz, Prinz von Frankreich'),
 	'118610066' => array('sortiername' => 'Johann Philipp, Erzbischof zu Mainz'),
 	'119218968' => array('sortiername' => 'Johann Friedrich, Herzog zu Braunschweig-Lüneburg'),
+	'118571869' => array('sortiername' => 'Leopold I., Kaiser des Heiligen Römischen Reichs'),
+	'118584138' => array('sortiername' => 'Moritz, Kurfürst von Sachsen'),
+	'136844537' => array('sortiername' => 'Charlotte, Landgräfin von Hessen-Darmstadt'),
 	'1037525493' => array('sortiername' => 'Bellère, Balthazar', 'nachname' => 'Bellère')	
 );
 

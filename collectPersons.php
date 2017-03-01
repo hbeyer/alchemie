@@ -41,16 +41,14 @@ while($test == 'not_finished') {
 	$test = $personList->loadFromSRU($startRecord, $maximumRecords);
 	$startRecord += $maximumRecords;
 }
-
-$personList->insertAmendmentsGND();
-$personList->insertBeacon();
 $personList->dumpToFile('cache');
 
-
-/* $personList->loadFromFile('cache');
+//$personList->loadFromFile('cache');
+//var_dump($personList);
+$personList->insertAmendmentsGND();
+$personList->insertBeacon();
 $personList->makeSearchNames();
-var_dump($personList); */
-$personList->makeXML('personList-test.xml');
+$personList->makeXML('personList.xml');
 
 class personList {
 	
@@ -371,15 +369,21 @@ class person {
 	}
 	
 	function insertAmendments() {
-		include('korrekturliste.php');			
+		include('korrekturliste.php');
 		if(isset($amendmentsSortingName[$this->sortiername])) {
-			$this->sortiername = $amendmentsSortingName[$this->sortiername];
-			$this->searchNameArray[] = $this->sortiername;
+			$amendment = $amendmentsSortingName[$this->sortiername];
+			$test = checkTextDiff($this->sortiername, $amendment);
+			if($test == 'diff') {
+				$this->searchNameArray[] = $amendment;
+			}
+			$this->sortiername = $amendment;
 		}
 	}
 
 	function makeSearchURL() {
 		$request = '';
+		//Kleine Pfuscherei, um Dopplungen bei den Suchnamen zu vermeiden
+		$this->searchNameArray = array_unique($this->searchNameArray);
 		$searchString = implode('|', $this->searchNameArray);
 		if(isset($this->searchNameArray[1])) {
 			$searchString = '('.$searchString.')';
@@ -427,6 +431,19 @@ class person {
 		$this->searchArray = array();
 	}
 
+}
+
+function checkTextDiff($name1, $name2) {
+	$return = 'diff';
+	$translation = array(',' => '', '.' => '');
+	$name1 = strtr($name1, $translation);
+	$name2 = strtr($name2, $translation);
+	$name1 = strtolower($name1);
+	$name2 = strtolower($name2);
+	if($name1 == $name2) {
+		$return = 'noDiff';
+	}
+	return($return);
 }
 
 ?>

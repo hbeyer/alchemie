@@ -202,7 +202,8 @@
     <gnd>118512579</gnd>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+118512579+or+aut+B&#xF6;hme, Jakob)+and+abr+alchemie</searchURL>
     <lebensdaten>1575&#x2013;1624</lebensdaten>
-    <vorkommenAutor>24</vorkommenAutor>
+    <vorkommenAutor>23</vorkommenAutor>
+    <vorkommenBeteiligt>1</vorkommenBeteiligt>
     <beaconResults>
       <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/118512579</link>
       <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/118512579</link>
@@ -315,6 +316,21 @@
       <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/119097303</link>
       <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/119097303</link>
       <link>Kalliope Verbundkatalog#http://kalliope.staatsbibliothek-berlin.de/de/eac?eac.id=119097303</link>
+    </beaconResults>
+  </person>
+  <person>
+    <vorname>Johann Gottfried</vorname>
+    <nachname>Jugel</nachname>
+    <sortiername>Jugel, Johann Gottfried</sortiername>
+    <gnd>100297714</gnd>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+100297714+or+aut+Jugel, Johann Gottfried)+and+abr+alchemie</searchURL>
+    <lebensdaten>1707&#x2013;1786</lebensdaten>
+    <vorkommenAutor>1</vorkommenAutor>
+    <beaconResults>
+      <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/100297714</link>
+      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/100297714</link>
+      <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd100297714.html</link>
+      <link>Digitaler Portraitindex#http://www.portraitindex.de/dokumente/pnd/100297714</link>
     </beaconResults>
   </person>
   <person>
@@ -667,7 +683,7 @@
   <person>
     <name>Basilius</name>
     <beiname>Valentinus</beiname>
-    <sortiername>Basilius, Valentinus</sortiername>
+    <sortiername>Basilius Valentinus</sortiername>
     <gnd>118507036</gnd>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+118507036+or+aut+Basilius Valentinus)+and+abr+alchemie</searchURL>
     <lebensdaten>1394&#x2013;1450</lebensdaten>
@@ -1770,7 +1786,7 @@
     <gnd>11859169X</gnd>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+11859169X+or+aut+Paracelsus)+and+abr+alchemie</searchURL>
     <lebensdaten>1493&#x2013;1541</lebensdaten>
-    <vorkommenAutor>84</vorkommenAutor>
+    <vorkommenAutor>83</vorkommenAutor>
     <vorkommenBeteiligt>22</vorkommenBeteiligt>
     <beaconResults>
       <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/11859169X</link>
@@ -2272,7 +2288,7 @@
   <person>
     <name>Charlotte</name>
     <beiname>Hessen-Darmstadt, Landgr&#xE4;fin</beiname>
-    <sortiername>Charlotte Hessen-Darmstadt, Landgr&#xE4;fin</sortiername>
+    <sortiername>Charlotte, Landgr&#xE4;fin von Hessen-Darmstadt</sortiername>
     <gnd>136844537</gnd>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+136844537+or+aut+Charlotte Hessen-Darmstadt, Landgr&#xE4;fin)+and+abr+alchemie</searchURL>
     <lebensdaten>1700&#x2013;1726</lebensdaten>
@@ -2348,6 +2364,17 @@
     </beaconResults>
   </person>
   <person>
+    <vorname>Adam Jacob</vorname>
+    <nachname>Spiekermann</nachname>
+    <sortiername>Spiekermann, Adam Jacob</sortiername>
+    <gnd>14339956X</gnd>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+Spiekermann, Adam Jacob+and+abr+alchemie</searchURL>
+    <vorkommenVerleger>1</vorkommenVerleger>
+    <beaconResults>
+      <link>Kalliope Verbundkatalog#http://kalliope.staatsbibliothek-berlin.de/de/eac?eac.id=14339956X</link>
+    </beaconResults>
+  </person>
+  <person>
     <vorname>Johann Gerhard Reinhard</vorname>
     <nachname>Andreae</nachname>
     <sortiername>Andreae, Johann Gerhard Reinhard</sortiername>
@@ -2372,6 +2399,29 @@
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
     <beaconResults>
       <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/1065188374</link>
+    </beaconResults>
+  </person>
+  <person>
+    <vorname>Johann Gottfried</vorname>
+    <nachname>Bauer</nachname>
+    <sortiername>Bauer, Johann Gottfried</sortiername>
+    <gnd>1037495918</gnd>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+Bauer, Johann Gottfried+and+abr+alchemie</searchURL>
+    <vorkommenVerleger>1</vorkommenVerleger>
+    <beaconResults>
+      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/1037495918</link>
+    </beaconResults>
+  </person>
+  <person>
+    <vorname>Johann Heinrich</vorname>
+    <nachname>Heitz</nachname>
+    <zaehlung>III.</zaehlung>
+    <sortiername>Heitz, Johann Heinrich III.</sortiername>
+    <gnd>1037503732</gnd>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+1037503732+or+aut+Heitz, Johann Heinrich III.)+and+abr+alchemie</searchURL>
+    <vorkommenBeteiligt>1</vorkommenBeteiligt>
+    <beaconResults>
+      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/1037503732</link>
     </beaconResults>
   </person>
   <person>
@@ -2429,7 +2479,7 @@
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+118532855+or+aut+Ficinus, Marsilius)+and+abr+alchemie</searchURL>
     <lebensdaten>1433&#x2013;1499</lebensdaten>
     <vorkommenAutor>1</vorkommenAutor>
-    <vorkommenBeteiligt>5</vorkommenBeteiligt>
+    <vorkommenBeteiligt>6</vorkommenBeteiligt>
     <beaconResults>
       <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/118532855</link>
       <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/118532855</link>
@@ -2692,6 +2742,28 @@
     </beaconResults>
   </person>
   <person>
+    <vorname>Cornelius</vorname>
+    <nachname>Wei&#xDF;ner</nachname>
+    <sortiername>Wei&#xDF;ner, Cornelius</sortiername>
+    <gnd>136417809</gnd>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+136417809+or+aut+Wei&#xDF;ner, Cornelius)+and+abr+alchemie</searchURL>
+    <vorkommenBeteiligt>1</vorkommenBeteiligt>
+  </person>
+  <person>
+    <vorname>Tobias</vorname>
+    <nachname>Coberus</nachname>
+    <sortiername>Coberus, Tobias</sortiername>
+    <gnd>116617837</gnd>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+116617837+or+aut+Coberus, Tobias)+and+abr+alchemie</searchURL>
+    <lebensdaten>1570&#x2013;1612</lebensdaten>
+    <vorkommenBeteiligt>1</vorkommenBeteiligt>
+    <beaconResults>
+      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/116617837</link>
+      <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd116617837.html</link>
+      <link>Biographisches Lexikon des Kaiserthums Oesterreich#http://tools.wmflabs.org/persondata/redirect/gnd/ws-blkoe/116617837</link>
+    </beaconResults>
+  </person>
+  <person>
     <vorname>Samuel Gottlieb</vorname>
     <nachname>Lochmann</nachname>
     <sortiername>Lochmann, Samuel Gottlieb</sortiername>
@@ -2835,23 +2907,6 @@
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
     <beaconResults>
       <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/130138150</link>
-    </beaconResults>
-  </person>
-  <person>
-    <vorname>Johann Jacob</vorname>
-    <nachname>Baier</nachname>
-    <sortiername>Baier, Johann Jacob</sortiername>
-    <gnd>116040122</gnd>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+116040122+or+aut+Baier, Johann Jacob)+and+abr+alchemie</searchURL>
-    <lebensdaten>1677&#x2013;1735</lebensdaten>
-    <vorkommenBeteiligt>1</vorkommenBeteiligt>
-    <beaconResults>
-      <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/116040122</link>
-      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/116040122</link>
-      <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd116040122.html</link>
-      <link>Kalliope Verbundkatalog#http://kalliope.staatsbibliothek-berlin.de/de/eac?eac.id=116040122</link>
-      <link>Digitaler Portraitindex#http://www.portraitindex.de/dokumente/pnd/116040122</link>
-      <link>Virtuelles Kupferstichkabinett#http://www.virtuelles-kupferstichkabinett.de/index.php?reset=1&amp;subPage=search&amp;selTab=2&amp;habFilter=1&amp;haumFilter=1&amp;selFilter=0&amp;sKey1=pzusatz&amp;sWord1=116040122</link>
     </beaconResults>
   </person>
   <person>
@@ -3003,17 +3058,6 @@
     <vorkommenVerleger>1</vorkommenVerleger>
     <beaconResults>
       <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/1037564898</link>
-    </beaconResults>
-  </person>
-  <person>
-    <vorname>Johann Gottfried</vorname>
-    <nachname>Bauer</nachname>
-    <sortiername>Bauer, Johann Gottfried</sortiername>
-    <gnd>1037495918</gnd>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+Bauer, Johann Gottfried+and+abr+alchemie</searchURL>
-    <vorkommenVerleger>1</vorkommenVerleger>
-    <beaconResults>
-      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/1037495918</link>
     </beaconResults>
   </person>
   <person>
@@ -3280,12 +3324,6 @@
       <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/123083567</link>
       <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd123083567.html</link>
     </beaconResults>
-  </person>
-  <person>
-    <koerperschaftsname>Helmstedt</koerperschaftsname>
-    <sortiername>Helmstedt</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+Helmstedt+and+abr+alchemie</searchURL>
-    <vorkommenVerleger>1</vorkommenVerleger>
   </person>
   <person>
     <vorname>Johann Jakob</vorname>
@@ -4339,8 +4377,8 @@
     <sortiername>Hermes Trismegistus</sortiername>
     <gnd>119068982</gnd>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+119068982+or+aut+Hermes Trismegistus)+and+abr+alchemie</searchURL>
-    <vorkommenAutor>10</vorkommenAutor>
-    <vorkommenBeteiligt>7</vorkommenBeteiligt>
+    <vorkommenAutor>4</vorkommenAutor>
+    <vorkommenBeteiligt>14</vorkommenBeteiligt>
     <beaconResults>
       <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/119068982</link>
       <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/119068982</link>
@@ -5135,7 +5173,7 @@
   <person>
     <name>Anna Sophia</name>
     <beiname>Sachsen, Kurf&#xFC;rstin</beiname>
-    <sortiername>Anna Sophia Kurf&#xFC;rstin von Sachsen</sortiername>
+    <sortiername>Anna Sophia, Kurf&#xFC;rstin von Sachsen</sortiername>
     <gnd>120064847</gnd>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+120064847+or+aut+Anna Sophia Sachsen, Kurf&#xFC;rstin)+and+abr+alchemie</searchURL>
     <lebensdaten>1647&#x2013;1717</lebensdaten>
@@ -5152,8 +5190,8 @@
     <vorname>Joannes Antonius</vorname>
     <nachname>W&#xFC;rben und Freudenthal</nachname>
     <beiname>Reichsgraf von</beiname>
-    <sortiername>W&#xFC;rben und Freudenthal, Joannes Antonius, Reichsgraf von</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+W&#xFC;rben und Freudenthal, Joannes Antonius, Reichsgraf von+and+abr+alchemie</searchURL>
+    <sortiername>Joannes Antonius, Reichsgraf von W&#xFC;rben und Freudenthal</sortiername>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+(W&#xFC;rben und Freudenthal, Joannes Antonius, Reichsgraf von|Joannes Antonius, Reichsgraf von W&#xFC;rben und Freudenthal)+and+abr+alchemie</searchURL>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
   <person>
@@ -6036,6 +6074,23 @@
     </beaconResults>
   </person>
   <person>
+    <vorname>Johann Jacob</vorname>
+    <nachname>Baier</nachname>
+    <sortiername>Baier, Johann Jacob</sortiername>
+    <gnd>116040122</gnd>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+116040122+or+aut+Baier, Johann Jacob)+and+abr+alchemie</searchURL>
+    <lebensdaten>1677&#x2013;1735</lebensdaten>
+    <vorkommenBeteiligt>1</vorkommenBeteiligt>
+    <beaconResults>
+      <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/116040122</link>
+      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/116040122</link>
+      <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd116040122.html</link>
+      <link>Kalliope Verbundkatalog#http://kalliope.staatsbibliothek-berlin.de/de/eac?eac.id=116040122</link>
+      <link>Digitaler Portraitindex#http://www.portraitindex.de/dokumente/pnd/116040122</link>
+      <link>Virtuelles Kupferstichkabinett#http://www.virtuelles-kupferstichkabinett.de/index.php?reset=1&amp;subPage=search&amp;selTab=2&amp;habFilter=1&amp;haumFilter=1&amp;selFilter=0&amp;sKey1=pzusatz&amp;sWord1=116040122</link>
+    </beaconResults>
+  </person>
+  <person>
     <vorname>Johann Christoph</vorname>
     <nachname>Spr&#xF6;gel</nachname>
     <sortiername>Spr&#xF6;gel, Johann Christoph</sortiername>
@@ -6876,46 +6931,6 @@
       <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/121760960</link>
       <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/121760960</link>
       <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd121760960.html</link>
-    </beaconResults>
-  </person>
-  <person>
-    <vorname>Vinzenz</vorname>
-    <nachname>Kofski</nachname>
-    <sortiername>Kofski, Vinzenz</sortiername>
-    <gnd>100196098</gnd>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+100196098+or+aut+Kofski, Vinzenz)+and+abr+alchemie</searchURL>
-    <vorkommenBeteiligt>3</vorkommenBeteiligt>
-    <beaconResults>
-      <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/100196098</link>
-      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/100196098</link>
-    </beaconResults>
-  </person>
-  <person>
-    <name>Alphidius</name>
-    <sortiername>Alphidius</sortiername>
-    <gnd>102517878</gnd>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+102517878+or+aut+Alphidius)+and+abr+alchemie</searchURL>
-    <vorkommenBeteiligt>1</vorkommenBeteiligt>
-    <beaconResults>
-      <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/102517878</link>
-      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/102517878</link>
-    </beaconResults>
-  </person>
-  <person>
-    <vorname>Raimundus</vorname>
-    <nachname>Lullus</nachname>
-    <sortiername>Lullus, Raimundus</sortiername>
-    <gnd>118575279</gnd>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+118575279+or+aut+Lullus, Raimundus)+and+abr+alchemie</searchURL>
-    <lebensdaten>1232&#x2013;1315</lebensdaten>
-    <vorkommenAutor>12</vorkommenAutor>
-    <vorkommenBeteiligt>15</vorkommenBeteiligt>
-    <beaconResults>
-      <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/118575279</link>
-      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/118575279</link>
-      <link>Fabricius: Bibliotheca latina#http://www.mgh.de/index.php?&amp;wa72ci_url=%2Fcgi-bin%2Fmgh%2Fallegro.pl&amp;db=opac&amp;var5=IDN&amp;TYP=&amp;id=438&amp;item5=fabricius_118575279</link>
-      <link>Kalliope Verbundkatalog#http://kalliope.staatsbibliothek-berlin.de/de/eac?eac.id=118575279</link>
-      <link>Digitaler Portraitindex#http://www.portraitindex.de/dokumente/pnd/118575279</link>
     </beaconResults>
   </person>
   <person>
@@ -8280,19 +8295,6 @@
     </beaconResults>
   </person>
   <person>
-    <vorname>Johann Jacob</vorname>
-    <nachname>Spener</nachname>
-    <sortiername>Spener, Johann Jacob</sortiername>
-    <gnd>124826229</gnd>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+124826229+or+aut+Spener, Johann Jacob)+and+abr+alchemie</searchURL>
-    <vorkommenAutor>1</vorkommenAutor>
-    <beaconResults>
-      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/124826229</link>
-      <link>Gesamtkatalog deutschsprachiger Leichenpredigten#http://cgi-host.uni-marburg.de/~omgesa/gs/xs1.php?f1=pnd&amp;s1=124826229</link>
-      <link>Kalliope Verbundkatalog#http://kalliope.staatsbibliothek-berlin.de/de/eac?eac.id=124826229</link>
-    </beaconResults>
-  </person>
-  <person>
     <vorname>Johann Conrad</vorname>
     <nachname>Wack</nachname>
     <sortiername>Wack, Johann Conrad</sortiername>
@@ -8749,7 +8751,7 @@
   <person>
     <name>Franz Carl Przehorschowsky</name>
     <beiname>Freiherr von Ovasegowiz auf Zbraslawiz</beiname>
-    <sortiername>Franz Carl Przehorschowsky Freiherr von Ovasegowiz auf Zbraslawiz</sortiername>
+    <sortiername>Franz Carl Przehorschowsky, Freiherr von Ovasegowiz auf Zbraslawiz</sortiername>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Franz Carl Przehorschowsky Freiherr von Ovasegowiz auf Zbraslawiz+and+abr+alchemie</searchURL>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
@@ -9183,8 +9185,54 @@
     <vorname>Joachim</vorname>
     <nachname>Wichmann</nachname>
     <sortiername>Wichmann, Joachim</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+(Wichman, Jochim|Wichmann, Joachim)+and+abr+alchemie</searchURL>
-    <vorkommenBeteiligt>2</vorkommenBeteiligt>
+    <gnd>130108200</gnd>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+130108200+or+aut+Wichmann, Joachim)+and+abr+alchemie</searchURL>
+    <vorkommenBeteiligt>3</vorkommenBeteiligt>
+    <beaconResults>
+      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/130108200</link>
+      <link>Digitaler Portraitindex#http://www.portraitindex.de/dokumente/pnd/130108200</link>
+      <link>Virtuelles Kupferstichkabinett#http://www.virtuelles-kupferstichkabinett.de/index.php?reset=1&amp;subPage=search&amp;selTab=2&amp;habFilter=1&amp;haumFilter=1&amp;selFilter=0&amp;sKey1=pzusatz&amp;sWord1=130108200</link>
+    </beaconResults>
+  </person>
+  <person>
+    <vorname>Vinzenz</vorname>
+    <nachname>Kofski</nachname>
+    <sortiername>Kofski, Vinzenz</sortiername>
+    <gnd>100196098</gnd>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+100196098+or+aut+Kofski, Vinzenz)+and+abr+alchemie</searchURL>
+    <vorkommenBeteiligt>3</vorkommenBeteiligt>
+    <beaconResults>
+      <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/100196098</link>
+      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/100196098</link>
+    </beaconResults>
+  </person>
+  <person>
+    <name>Alphidius</name>
+    <sortiername>Alphidius</sortiername>
+    <gnd>102517878</gnd>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+102517878+or+aut+Alphidius)+and+abr+alchemie</searchURL>
+    <vorkommenBeteiligt>1</vorkommenBeteiligt>
+    <beaconResults>
+      <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/102517878</link>
+      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/102517878</link>
+    </beaconResults>
+  </person>
+  <person>
+    <vorname>Raimundus</vorname>
+    <nachname>Lullus</nachname>
+    <sortiername>Lullus, Raimundus</sortiername>
+    <gnd>118575279</gnd>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+118575279+or+aut+Lullus, Raimundus)+and+abr+alchemie</searchURL>
+    <lebensdaten>1232&#x2013;1315</lebensdaten>
+    <vorkommenAutor>11</vorkommenAutor>
+    <vorkommenBeteiligt>15</vorkommenBeteiligt>
+    <beaconResults>
+      <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/118575279</link>
+      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/118575279</link>
+      <link>Fabricius: Bibliotheca latina#http://www.mgh.de/index.php?&amp;wa72ci_url=%2Fcgi-bin%2Fmgh%2Fallegro.pl&amp;db=opac&amp;var5=IDN&amp;TYP=&amp;id=438&amp;item5=fabricius_118575279</link>
+      <link>Kalliope Verbundkatalog#http://kalliope.staatsbibliothek-berlin.de/de/eac?eac.id=118575279</link>
+      <link>Digitaler Portraitindex#http://www.portraitindex.de/dokumente/pnd/118575279</link>
+    </beaconResults>
   </person>
   <person>
     <name>J. B.</name>
@@ -9938,16 +9986,12 @@
     </beaconResults>
   </person>
   <person>
-    <vorname>Christoph</vorname>
-    <nachname>Fleischer</nachname>
-    <sortiername>Fleischer, Christoph</sortiername>
-    <gnd>136284620</gnd>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+Fleischer, Christoph+and+abr+alchemie</searchURL>
-    <vorkommenVerleger>1</vorkommenVerleger>
-    <beaconResults>
-      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/136284620</link>
-      <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd136284620.html</link>
-    </beaconResults>
+    <vorname>Johann</vorname>
+    <nachname>Sch&#xFC;tze</nachname>
+    <sortiername>Sch&#xFC;tze, Johann</sortiername>
+    <gnd>1053492596</gnd>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+1053492596+or+aut+Sch&#xFC;tze, Johann)+and+abr+alchemie</searchURL>
+    <vorkommenAutor>1</vorkommenAutor>
   </person>
   <person>
     <name>Floretus</name>
@@ -11108,8 +11152,24 @@
     <name>Leopold</name>
     <beiname>R&#xF6;misch-Deutsches Reich, Kaiser, I.</beiname>
     <sortiername>Leopold I., Kaiser des Heiligen R&#xF6;mischen Reichs</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+(Leopold I., R&#xF6;misch-Deutsches Reich, Kaiser|Leopold I., Kaiser des Heiligen R&#xF6;mischen Reichs|Leopold R&#xF6;misch-Deutsches Reich, Kaiser, I.)+and+abr+alchemie</searchURL>
-    <vorkommenBeteiligt>4</vorkommenBeteiligt>
+    <gnd>118571869</gnd>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+118571869+or+aut+(Leopold I., Heiliges R&#xF6;misches Reich, Kaiser|Leopold I., R&#xF6;misch-Deutsches Reich, Kaiser|Leopold R&#xF6;misch-Deutsches Reich, Kaiser, I.))+and+abr+alchemie</searchURL>
+    <vorkommenBeteiligt>6</vorkommenBeteiligt>
+    <beaconResults>
+      <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/118571869</link>
+      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/118571869</link>
+      <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd118571869.html</link>
+      <link>Biographisches Lexikon des Kaiserthums Oesterreich#http://tools.wmflabs.org/persondata/redirect/gnd/ws-blkoe/118571869</link>
+      <link>Internet-Portal &#xAB;Westf&#xE4;lische Geschichte&#xBB;#http://www.westfaelische-geschichte.de/pnd118571869</link>
+      <link>Gesamtkatalog deutschsprachiger Leichenpredigten#http://cgi-host.uni-marburg.de/~omgesa/gs/xs1.php?f1=pnd&amp;s1=118571869</link>
+      <link>Sandrart.net#http://ta.sandrart.net/services/pnd-beacon/?pnd=118571869</link>
+      <link>Kalliope Verbundkatalog#http://kalliope.staatsbibliothek-berlin.de/de/eac?eac.id=118571869</link>
+      <link>Germania Sacra Personendatenbank#http://personendatenbank.germania-sacra.de/index/gnd/118571869</link>
+      <link>M&#xFC;nzkabinetts Staatliche Museen zu Berlin#http://ww2.smb.museum/ikmk/filter_text.php?filter%5B0%5D%5Bfield%5D=gnd&amp;filter%5B0%5D%5Btext%5D=118571869</link>
+      <link>Digitaler Portraitindex#http://www.portraitindex.de/dokumente/pnd/118571869</link>
+      <link>Virtuelles Kupferstichkabinett#http://www.virtuelles-kupferstichkabinett.de/index.php?reset=1&amp;subPage=search&amp;selTab=2&amp;habFilter=1&amp;haumFilter=1&amp;selFilter=0&amp;sKey1=pzusatz&amp;sWord1=118571869</link>
+      <link>International Music Score Library Project#http://beacon.findbuch.de/gnd-resolver/pw_imslp/118571869</link>
+    </beaconResults>
   </person>
   <person>
     <vorname>Cornelis</vorname>
@@ -12773,6 +12833,14 @@
     <vorkommenVerleger>1</vorkommenVerleger>
   </person>
   <person>
+    <vorname>Johann Adolph</vorname>
+    <nachname>H&#xE4;rtel</nachname>
+    <sortiername>H&#xE4;rtel, Johann Adolph</sortiername>
+    <gnd>1037529170</gnd>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+H&#xE4;rtel, Johann Adolph+and+abr+alchemie</searchURL>
+    <vorkommenVerleger>2</vorkommenVerleger>
+  </person>
+  <person>
     <koerperschaftsname>Johann Birckner Erben</koerperschaftsname>
     <sortiername>Johann Birckner Erben</sortiername>
     <gnd>6146173-8</gnd>
@@ -12822,14 +12890,6 @@
     <beaconResults>
       <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/103753378X</link>
     </beaconResults>
-  </person>
-  <person>
-    <vorname>Johann Adolph</vorname>
-    <nachname>H&#xE4;rtel</nachname>
-    <sortiername>H&#xE4;rtel, Johann Adolph</sortiername>
-    <gnd>1037529170</gnd>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+H&#xE4;rtel, Johann Adolph+and+abr+alchemie</searchURL>
-    <vorkommenVerleger>1</vorkommenVerleger>
   </person>
   <person>
     <vorname>Johann Peter</vorname>
@@ -14574,31 +14634,6 @@
     <vorkommenBeteiligt>2</vorkommenBeteiligt>
   </person>
   <person>
-    <name>Leopold</name>
-    <beiname>Heiliges R&#xF6;misches Reich, Kaiser</beiname>
-    <zaehlung>I.</zaehlung>
-    <sortiername>Leopold I., Heiliges R&#xF6;misches Reich, Kaiser</sortiername>
-    <gnd>118571869</gnd>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+118571869+or+aut+Leopold I., Heiliges R&#xF6;misches Reich, Kaiser)+and+abr+alchemie</searchURL>
-    <lebensdaten>1640&#x2013;1705</lebensdaten>
-    <vorkommenBeteiligt>2</vorkommenBeteiligt>
-    <beaconResults>
-      <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/118571869</link>
-      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/118571869</link>
-      <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd118571869.html</link>
-      <link>Biographisches Lexikon des Kaiserthums Oesterreich#http://tools.wmflabs.org/persondata/redirect/gnd/ws-blkoe/118571869</link>
-      <link>Internet-Portal &#xAB;Westf&#xE4;lische Geschichte&#xBB;#http://www.westfaelische-geschichte.de/pnd118571869</link>
-      <link>Gesamtkatalog deutschsprachiger Leichenpredigten#http://cgi-host.uni-marburg.de/~omgesa/gs/xs1.php?f1=pnd&amp;s1=118571869</link>
-      <link>Sandrart.net#http://ta.sandrart.net/services/pnd-beacon/?pnd=118571869</link>
-      <link>Kalliope Verbundkatalog#http://kalliope.staatsbibliothek-berlin.de/de/eac?eac.id=118571869</link>
-      <link>Germania Sacra Personendatenbank#http://personendatenbank.germania-sacra.de/index/gnd/118571869</link>
-      <link>M&#xFC;nzkabinetts Staatliche Museen zu Berlin#http://ww2.smb.museum/ikmk/filter_text.php?filter%5B0%5D%5Bfield%5D=gnd&amp;filter%5B0%5D%5Btext%5D=118571869</link>
-      <link>Digitaler Portraitindex#http://www.portraitindex.de/dokumente/pnd/118571869</link>
-      <link>Virtuelles Kupferstichkabinett#http://www.virtuelles-kupferstichkabinett.de/index.php?reset=1&amp;subPage=search&amp;selTab=2&amp;habFilter=1&amp;haumFilter=1&amp;selFilter=0&amp;sKey1=pzusatz&amp;sWord1=118571869</link>
-      <link>International Music Score Library Project#http://beacon.findbuch.de/gnd-resolver/pw_imslp/118571869</link>
-    </beaconResults>
-  </person>
-  <person>
     <vorname>Crispijn</vorname>
     <nachname>Passe</nachname>
     <titel>van de</titel>
@@ -15027,15 +15062,15 @@
   <person>
     <name>Margarethe Elisabeth</name>
     <beiname>Landgr&#xE4;fin zu Hessen</beiname>
-    <sortiername>Margarethe Elisabeth Landgr&#xE4;fin zu Hessen</sortiername>
+    <sortiername>Margarethe Elisabeth, Landgr&#xE4;fin zu Hessen</sortiername>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Margarethe Elisabeth Landgr&#xE4;fin zu Hessen+and+abr+alchemie</searchURL>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
   <person>
     <name>Johan Augustus</name>
     <beiname>Graf zu Solms</beiname>
-    <sortiername>Johan Augustus Graf zu Solms</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Johan Augustus Graf zu Solms+and+abr+alchemie</searchURL>
+    <sortiername>Johann August, Graf zu Solms</sortiername>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+(Johan Augustus Graf zu Solms|Johann August, Graf zu Solms)+and+abr+alchemie</searchURL>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
   <person>
@@ -15466,8 +15501,8 @@
   <person>
     <name>Friedrich</name>
     <beiname>Rhein, Pfalzgraf</beiname>
-    <sortiername>Friedrich Pfalzgraf bei Rhein</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+(Friedrich Rhein, Pfalzgraf|Friedrich Pfalzgraf bei Rhein)+and+abr+alchemie</searchURL>
+    <sortiername>Friedrich, Pfalzgraf bei Rhein</sortiername>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+(Friedrich Rhein, Pfalzgraf|Friedrich, Pfalzgraf bei Rhein)+and+abr+alchemie</searchURL>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
   <person>
@@ -15852,21 +15887,21 @@
   <person>
     <name>Christian G&#xFC;nther</name>
     <beiname>Graf zu Schwartzburg und Honstein</beiname>
-    <sortiername>Christian G&#xFC;nther Graf zu Schwartzburg und Honstein</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Christian G&#xFC;nther Graf zu Schwartzburg und Honstein+and+abr+alchemie</searchURL>
-    <vorkommenBeteiligt>1</vorkommenBeteiligt>
+    <sortiername>Christian G&#xFC;nther, Graf zu Schwartzburg und Honstein</sortiername>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+(Christian G&#xFC;nther Graf in Schwarzburg und Hohenstein|Christian G&#xFC;nther, Graf zu Schwartzburg und Honstein|Christian G&#xFC;nther Graf zu Schwartzburg und Honstein)+and+abr+alchemie</searchURL>
+    <vorkommenBeteiligt>2</vorkommenBeteiligt>
   </person>
   <person>
     <name>Anthonius G&#xFC;nther</name>
     <beiname>Graf zu Schwartzburg und Honstein</beiname>
-    <sortiername>Anthonius G&#xFC;nther Graf zu Schwartzburg und Honstein</sortiername>
+    <sortiername>Anthonius G&#xFC;nther, Graf zu Schwartzburg und Honstein</sortiername>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Anthonius G&#xFC;nther Graf zu Schwartzburg und Honstein+and+abr+alchemie</searchURL>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
   <person>
     <name>Ludwig G&#xFC;nther</name>
     <beiname>Graf zu Schwartzburg und Honstein</beiname>
-    <sortiername>Ludwig G&#xFC;nther Graf zu Schwartzburg und Honstein</sortiername>
+    <sortiername>Ludwig G&#xFC;nther, Graf zu Schwartzburg und Honstein</sortiername>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Ludwig G&#xFC;nther Graf zu Schwartzburg und Honstein+and+abr+alchemie</searchURL>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
@@ -15948,7 +15983,7 @@
     <sortiername>Alanus ab Insulis</sortiername>
     <gnd>11864422X</gnd>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+11864422X+or+aut+(Alanus ab Insulis|Alanus))+and+abr+alchemie</searchURL>
-    <vorkommenBeteiligt>4</vorkommenBeteiligt>
+    <vorkommenBeteiligt>5</vorkommenBeteiligt>
     <beaconResults>
       <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/11864422X</link>
       <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/11864422X</link>
@@ -16304,7 +16339,7 @@
     <gnd>12443794X</gnd>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+12443794X+or+aut+Dorn, Gerhard)+and+abr+alchemie</searchURL>
     <vorkommenAutor>9</vorkommenAutor>
-    <vorkommenBeteiligt>16</vorkommenBeteiligt>
+    <vorkommenBeteiligt>15</vorkommenBeteiligt>
     <beaconResults>
       <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/12443794X</link>
       <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/12443794X</link>
@@ -16483,10 +16518,10 @@
   <person>
     <name>Moritz</name>
     <beiname>Sachsen, Kurf&#xFC;rst</beiname>
-    <sortiername>Moritz Kurf&#xFC;rst von Sachsen</sortiername>
+    <sortiername>Moritz, Kurf&#xFC;rst von Sachsen</sortiername>
     <gnd>118584138</gnd>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+118584138+or+aut+(Moritz Sachsen, Kurf&#xFC;rst|Moritz Kurf&#xFC;rst von Sachsen))+and+abr+alchemie</searchURL>
-    <vorkommenBeteiligt>2</vorkommenBeteiligt>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+118584138+or+aut+(Moritz Sachsen, Kurf&#xFC;rst|Moritz Kurf&#xFC;rst von Sachsen|Mauricius Dux Saxoniae))+and+abr+alchemie</searchURL>
+    <vorkommenBeteiligt>3</vorkommenBeteiligt>
     <beaconResults>
       <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/118584138</link>
       <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/118584138</link>
@@ -16746,41 +16781,6 @@
     <sortiername>Aquilinus, Theodorus</sortiername>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Aquilinus, Theodorus+and+abr+alchemie</searchURL>
     <vorkommenBeteiligt>2</vorkommenBeteiligt>
-  </person>
-  <person>
-    <vorname>Jacobus</vorname>
-    <nachname>Gaffarellus</nachname>
-    <sortiername>Gaffarellus, Jacobus</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Gaffarellus, Jacobus+and+abr+alchemie</searchURL>
-    <vorkommenBeteiligt>1</vorkommenBeteiligt>
-  </person>
-  <person>
-    <vorname>Iacq.</vorname>
-    <nachname>Iouvin</nachname>
-    <sortiername>Iouvin, Iacq.</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Iouvin, Iacq.+and+abr+alchemie</searchURL>
-    <vorkommenBeteiligt>1</vorkommenBeteiligt>
-  </person>
-  <person>
-    <vorname>I. C.</vorname>
-    <nachname>Fey</nachname>
-    <sortiername>Fey, I. C.</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Fey, I. C.+and+abr+alchemie</searchURL>
-    <vorkommenBeteiligt>1</vorkommenBeteiligt>
-  </person>
-  <person>
-    <vorname>Guido</vorname>
-    <nachname>Patin</nachname>
-    <sortiername>Patin, Guido</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Patin, Guido+and+abr+alchemie</searchURL>
-    <vorkommenBeteiligt>1</vorkommenBeteiligt>
-  </person>
-  <person>
-    <vorname>G.</vorname>
-    <nachname>Colletet</nachname>
-    <sortiername>Colletet, G.</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Colletet, G.+and+abr+alchemie</searchURL>
-    <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
   <person>
     <vorname>Johannes</vorname>
@@ -18335,6 +18335,41 @@
     <vorkommenAutor>1</vorkommenAutor>
   </person>
   <person>
+    <vorname>Jacobus</vorname>
+    <nachname>Gaffarellus</nachname>
+    <sortiername>Gaffarellus, Jacobus</sortiername>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Gaffarellus, Jacobus+and+abr+alchemie</searchURL>
+    <vorkommenBeteiligt>1</vorkommenBeteiligt>
+  </person>
+  <person>
+    <vorname>Iacq.</vorname>
+    <nachname>Iouvin</nachname>
+    <sortiername>Iouvin, Iacq.</sortiername>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Iouvin, Iacq.+and+abr+alchemie</searchURL>
+    <vorkommenBeteiligt>1</vorkommenBeteiligt>
+  </person>
+  <person>
+    <vorname>I. C.</vorname>
+    <nachname>Fey</nachname>
+    <sortiername>Fey, I. C.</sortiername>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Fey, I. C.+and+abr+alchemie</searchURL>
+    <vorkommenBeteiligt>1</vorkommenBeteiligt>
+  </person>
+  <person>
+    <vorname>Guido</vorname>
+    <nachname>Patin</nachname>
+    <sortiername>Patin, Guido</sortiername>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Patin, Guido+and+abr+alchemie</searchURL>
+    <vorkommenBeteiligt>1</vorkommenBeteiligt>
+  </person>
+  <person>
+    <vorname>G.</vorname>
+    <nachname>Colletet</nachname>
+    <sortiername>Colletet, G.</sortiername>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Colletet, G.+and+abr+alchemie</searchURL>
+    <vorkommenBeteiligt>1</vorkommenBeteiligt>
+  </person>
+  <person>
     <vorname>Aug.</vorname>
     <nachname>Furnatius</nachname>
     <sortiername>Furnatius, Aug.</sortiername>
@@ -19775,8 +19810,8 @@
     <name>Ursula</name>
     <beiname>Herzogin zu W&#xFC;rtemberg und Teck</beiname>
     <sortiername>Ursula, Herzogin zu W&#xFC;rttemberg-Teck</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+(Ursula Herzogin zu W&#xFC;rtemberg und Teck|Ursula, Herzogin zu W&#xFC;rttemberg-Teck)+and+abr+alchemie</searchURL>
-    <vorkommenBeteiligt>1</vorkommenBeteiligt>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+(Ursula Herzogin zu Wirttemberg und Teckh|Ursula, Herzogin zu W&#xFC;rttemberg-Teck|Ursula Herzogin zu W&#xFC;rtemberg und Teck)+and+abr+alchemie</searchURL>
+    <vorkommenBeteiligt>2</vorkommenBeteiligt>
   </person>
   <person>
     <vorname>Johannes</vorname>
@@ -20363,34 +20398,6 @@
     <beiname>genannt von Dalburg</beiname>
     <sortiername>Wolffgang Johann genannt von Dalburg</sortiername>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Wolffgang Johann genannt von Dalburg+and+abr+alchemie</searchURL>
-    <vorkommenBeteiligt>1</vorkommenBeteiligt>
-  </person>
-  <person>
-    <vorname>Ceriacus</vorname>
-    <nachname>Ernestus</nachname>
-    <sortiername>Ernestus, Ceriacus</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Ernestus, Ceriacus+and+abr+alchemie</searchURL>
-    <vorkommenBeteiligt>1</vorkommenBeteiligt>
-  </person>
-  <person>
-    <vorname>Liborius</vorname>
-    <nachname>Pfeifferus</nachname>
-    <sortiername>Pfeifferus, Liborius</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Pfeifferus, Liborius+and+abr+alchemie</searchURL>
-    <vorkommenBeteiligt>1</vorkommenBeteiligt>
-  </person>
-  <person>
-    <vorname>Johannes</vorname>
-    <nachname>Wildenius</nachname>
-    <sortiername>Wildenius, Johannes</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Wildenius, Johannes+and+abr+alchemie</searchURL>
-    <vorkommenBeteiligt>1</vorkommenBeteiligt>
-  </person>
-  <person>
-    <vorname>Andreas</vorname>
-    <nachname>Gruelingerus</nachname>
-    <sortiername>Gruelingerus, Andreas</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Gruelingerus, Andreas+and+abr+alchemie</searchURL>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
   <person>
@@ -22313,6 +22320,34 @@
     </beaconResults>
   </person>
   <person>
+    <vorname>Ceriacus</vorname>
+    <nachname>Ernestus</nachname>
+    <sortiername>Ernestus, Ceriacus</sortiername>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Ernestus, Ceriacus+and+abr+alchemie</searchURL>
+    <vorkommenBeteiligt>1</vorkommenBeteiligt>
+  </person>
+  <person>
+    <vorname>Liborius</vorname>
+    <nachname>Pfeifferus</nachname>
+    <sortiername>Pfeifferus, Liborius</sortiername>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Pfeifferus, Liborius+and+abr+alchemie</searchURL>
+    <vorkommenBeteiligt>1</vorkommenBeteiligt>
+  </person>
+  <person>
+    <vorname>Johannes</vorname>
+    <nachname>Wildenius</nachname>
+    <sortiername>Wildenius, Johannes</sortiername>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Wildenius, Johannes+and+abr+alchemie</searchURL>
+    <vorkommenBeteiligt>1</vorkommenBeteiligt>
+  </person>
+  <person>
+    <vorname>Andreas</vorname>
+    <nachname>Gruelingerus</nachname>
+    <sortiername>Gruelingerus, Andreas</sortiername>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Gruelingerus, Andreas+and+abr+alchemie</searchURL>
+    <vorkommenBeteiligt>1</vorkommenBeteiligt>
+  </person>
+  <person>
     <vorname>Robertus</vorname>
     <nachname>Cotton</nachname>
     <sortiername>Cotton, Robertus</sortiername>
@@ -22363,8 +22398,8 @@
   <person>
     <name>Christianus</name>
     <beiname>Herzog in Schlesien zur Liegnitz und Brieg</beiname>
-    <sortiername>	Christian, Herzog von Schlesien-Liegnitz-Brieg</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+(Christianus Herzog in Schlesien zur Liegnitz und Brieg|	Christian, Herzog von Schlesien-Liegnitz-Brieg)+and+abr+alchemie</searchURL>
+    <sortiername>Christian, Herzog von Schlesien-Liegnitz-Brieg</sortiername>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+(Christianus Herzog in Schlesien zur Liegnitz und Brieg|Christian, Herzog von Schlesien-Liegnitz-Brieg)+and+abr+alchemie</searchURL>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
   <person>
@@ -22493,13 +22528,6 @@
     <sortiername>Johann Casimir, Herzog zu Sachsen, J&#xFC;lich, Cleve und Bergen</sortiername>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+(Johann Casimir Sachsen-Coburg, Herzog|Johann Casimir, Herzog zu Sachsen, J&#xFC;lich, Cleve und Bergen|Johann Casimir Herzog zu Sachsen|Johann Casimirus Hertzog zu Sachsen, G&#xFC;lich, Cleve und Bergk)+and+abr+alchemie</searchURL>
     <vorkommenBeteiligt>6</vorkommenBeteiligt>
-  </person>
-  <person>
-    <name>Ursula</name>
-    <beiname>Herzogin zu Wirttemberg und Teckh</beiname>
-    <sortiername>	Ursula, Herzogin zu W&#xFC;rttemberg-Teck</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+(Ursula Herzogin zu Wirttemberg und Teckh|	Ursula, Herzogin zu W&#xFC;rttemberg-Teck)+and+abr+alchemie</searchURL>
-    <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
   <person>
     <name>Franciscus Wilhelmus</name>
@@ -22969,13 +22997,6 @@
     <nachname>Becerus</nachname>
     <sortiername>Becerus, Petrus</sortiername>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Becerus, Petrus+and+abr+alchemie</searchURL>
-    <vorkommenBeteiligt>1</vorkommenBeteiligt>
-  </person>
-  <person>
-    <name>Christian G&#xFC;nther</name>
-    <beiname>Graf in Schwarzburg und Hohenstein</beiname>
-    <sortiername>Christian G&#xFC;nther, Graf zu Schwartzburg und Honstein</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+(Christian G&#xFC;nther Graf in Schwarzburg und Hohenstein|Christian G&#xFC;nther, Graf zu Schwartzburg und Honstein)+and+abr+alchemie</searchURL>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
   <person>
@@ -23828,13 +23849,6 @@
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
   <person>
-    <name>Mauricius</name>
-    <beiname>Dux Saxoniae</beiname>
-    <sortiername>Moritz, Kurf&#xFC;rst von Sachsen</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+(Mauricius Dux Saxoniae|Moritz, Kurf&#xFC;rst von Sachsen)+and+abr+alchemie</searchURL>
-    <vorkommenBeteiligt>1</vorkommenBeteiligt>
-  </person>
-  <person>
     <vorname>Jacobus</vorname>
     <nachname>Boonen</nachname>
     <sortiername>Boonen, Jacobus</sortiername>
@@ -23925,8 +23939,8 @@
   <person>
     <vorname>Abt des Stifts Fulda</vorname>
     <nachname>Johan Friderich</nachname>
-    <sortiername>Johan Friderich, Abt des Stifts Fulda</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Johan Friderich, Abt des Stifts Fulda+and+abr+alchemie</searchURL>
+    <sortiername>Johann Friedrich, F&#xFC;rstabt von Fulda</sortiername>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+(Johan Friderich, Abt des Stifts Fulda|Johann Friedrich, F&#xFC;rstabt von Fulda)+and+abr+alchemie</searchURL>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
   <person>
@@ -24220,7 +24234,7 @@
     <gnd>104173327</gnd>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+104173327+or+aut+Johann Georg I., Anhalt-Dessau, F&#xFC;rst)+and+abr+alchemie</searchURL>
     <lebensdaten>1567&#x2013;1618</lebensdaten>
-    <vorkommenBeteiligt>3</vorkommenBeteiligt>
+    <vorkommenBeteiligt>4</vorkommenBeteiligt>
     <beaconResults>
       <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/104173327</link>
       <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/104173327</link>
@@ -24341,8 +24355,8 @@
   <person>
     <name>Ernestus</name>
     <beiname>Comes de Oetingen, Dominus in Wallerstain</beiname>
-    <sortiername>Oettingen-Wallerstein, Ernst</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+(Ernestus Comes de Oetingen, Dominus in Wallerstain|Oettingen-Wallerstein, Ernst)+and+abr+alchemie</searchURL>
+    <sortiername>Ernst, Graf von Oettingen-Wallerstein</sortiername>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+(Ernestus Comes de Oetingen, Dominus in Wallerstain|Ernst, Graf von Oettingen-Wallerstein)+and+abr+alchemie</searchURL>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
   <person>
@@ -24498,19 +24512,6 @@
     <sortiername>Gleichen, Philipp Ernst zu</sortiername>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Gleichen, Philipp Ernst zu+and+abr+alchemie</searchURL>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
-  </person>
-  <person>
-    <vorname>Georgius</vorname>
-    <nachname>Possius</nachname>
-    <sortiername>Possius, Georgius</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Possius, Georgius+and+abr+alchemie</searchURL>
-    <vorkommenBeteiligt>1</vorkommenBeteiligt>
-  </person>
-  <person>
-    <name>I. S.</name>
-    <sortiername>I. S.</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=per+I. S.+and+abr+alchemie</searchURL>
-    <vorkommenBeteiligt>2</vorkommenBeteiligt>
   </person>
   <person>
     <vorname>Pierre</vorname>
@@ -26188,6 +26189,19 @@
     </beaconResults>
   </person>
   <person>
+    <vorname>Georgius</vorname>
+    <nachname>Possius</nachname>
+    <sortiername>Possius, Georgius</sortiername>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Possius, Georgius+and+abr+alchemie</searchURL>
+    <vorkommenBeteiligt>1</vorkommenBeteiligt>
+  </person>
+  <person>
+    <name>I. S.</name>
+    <sortiername>I. S.</sortiername>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=per+I. S.+and+abr+alchemie</searchURL>
+    <vorkommenBeteiligt>2</vorkommenBeteiligt>
+  </person>
+  <person>
     <vorname>Ric.</vorname>
     <nachname>B.</nachname>
     <sortiername>B., Ric.</sortiername>
@@ -26567,14 +26581,14 @@
   <person>
     <name>Joachim Friderich</name>
     <beiname>Herzog in Schlesien zur Liegnitz und Brieg</beiname>
-    <sortiername>Joachim Friderich Herzog in Schlesien zur Liegnitz und Brieg</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Joachim Friderich Herzog in Schlesien zur Liegnitz und Brieg+and+abr+alchemie</searchURL>
+    <sortiername>Joachim Friedrich, Herzog in Schlesien zur Liegnitz und Brieg</sortiername>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+(Joachim Friderich Herzog in Schlesien zur Liegnitz und Brieg|Joachim Friedrich, Herzog in Schlesien zur Liegnitz und Brieg)+and+abr+alchemie</searchURL>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
   <person>
     <name>Anna Maria</name>
     <beiname>Herzogin in Schlesien zur Liegnitz und Brieg</beiname>
-    <sortiername>Anna Maria Herzogin in Schlesien zur Liegnitz und Brieg</sortiername>
+    <sortiername>Anna Maria, Herzogin in Schlesien zur Liegnitz und Brieg</sortiername>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Anna Maria Herzogin in Schlesien zur Liegnitz und Brieg+and+abr+alchemie</searchURL>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
@@ -27149,8 +27163,8 @@
   <person>
     <name>Gulielmus</name>
     <beiname>Palatinus Rheni ac utriusque Bavariae Dux</beiname>
-    <sortiername>Gulielmus Palatinus Rheni ac utriusque Bavariae Dux</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Gulielmus Palatinus Rheni ac utriusque Bavariae Dux+and+abr+alchemie</searchURL>
+    <sortiername>Wilhelm V. Herzog von Bayern</sortiername>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+(Gulielmus Palatinus Rheni ac utriusque Bavariae Dux|Wilhelm V. Herzog von Bayern)+and+abr+alchemie</searchURL>
     <vorkommenBeteiligt>2</vorkommenBeteiligt>
   </person>
   <person>
@@ -27398,13 +27412,6 @@
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
   <person>
-    <name>Johan Georg</name>
-    <beiname>F&#xFC;rst zu Anhalt</beiname>
-    <sortiername>Johan Georg F&#xFC;rst zu Anhalt</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Johan Georg F&#xFC;rst zu Anhalt+and+abr+alchemie</searchURL>
-    <vorkommenBeteiligt>1</vorkommenBeteiligt>
-  </person>
-  <person>
     <vorname>Joannes</vorname>
     <nachname>Hartmannus</nachname>
     <sortiername>Hartmannus, Joannes</sortiername>
@@ -27551,8 +27558,8 @@
   <person>
     <name>Johan Jacob</name>
     <beiname>Erzbischof zu Salzburg</beiname>
-    <sortiername>Johan Jacob Erzbischof zu Salzburg</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Johan Jacob Erzbischof zu Salzburg+and+abr+alchemie</searchURL>
+    <sortiername>Johann Jacob, Erzbischof von Salzburg</sortiername>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+(Johan Jacob Erzbischof zu Salzburg|Johann Jacob, Erzbischof von Salzburg)+and+abr+alchemie</searchURL>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
   </person>
   <person>
@@ -30157,7 +30164,7 @@
     <sortiername>Dold, Leonhard</sortiername>
     <gnd>132394960</gnd>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+132394960+or+aut+(Dold, Leonhard|Doldius, Leonhardus))+and+abr+alchemie</searchURL>
-    <vorkommenBeteiligt>2</vorkommenBeteiligt>
+    <vorkommenBeteiligt>3</vorkommenBeteiligt>
     <beaconResults>
       <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/132394960</link>
       <link>Digitaler Portraitindex#http://www.portraitindex.de/dokumente/pnd/132394960</link>
@@ -30593,6 +30600,17 @@
     <sortiername>Scultetus, Tobias</sortiername>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Scultetus, Tobias+and+abr+alchemie</searchURL>
     <vorkommenBeteiligt>1</vorkommenBeteiligt>
+  </person>
+  <person>
+    <vorname>Pandulphius</vorname>
+    <nachname>Lemius</nachname>
+    <sortiername>Lemius, Pandulphius</sortiername>
+    <gnd>119741474</gnd>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+119741474+or+aut+Lemius, Pandulphius)+and+abr+alchemie</searchURL>
+    <vorkommenBeteiligt>1</vorkommenBeteiligt>
+    <beaconResults>
+      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/119741474</link>
+    </beaconResults>
   </person>
   <person>
     <vorname>Johann</vorname>
@@ -31215,7 +31233,7 @@
     <sortiername>Henricpetri, Sebastian</sortiername>
     <gnd>124906486</gnd>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+Henricpetri, Sebastian+and+abr+alchemie</searchURL>
-    <vorkommenVerleger>4</vorkommenVerleger>
+    <vorkommenVerleger>5</vorkommenVerleger>
     <beaconResults>
       <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/124906486</link>
       <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/124906486</link>
@@ -31267,7 +31285,7 @@
     <sortiername>Marne, Claude de</sortiername>
     <gnd>119642328</gnd>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+Marne, Claude de+and+abr+alchemie</searchURL>
-    <vorkommenVerleger>9</vorkommenVerleger>
+    <vorkommenVerleger>10</vorkommenVerleger>
     <beaconResults>
       <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/119642328</link>
       <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd119642328.html</link>
@@ -31481,7 +31499,7 @@
     <sortiername>Bertram, Anton</sortiername>
     <gnd>119619571</gnd>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+Bertram, Anton+and+abr+alchemie</searchURL>
-    <vorkommenVerleger>1</vorkommenVerleger>
+    <vorkommenVerleger>2</vorkommenVerleger>
     <beaconResults>
       <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/119619571</link>
     </beaconResults>
@@ -31602,7 +31620,7 @@
     <sortiername>Aubry, Johann</sortiername>
     <gnd>119610361</gnd>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+Aubry, Johann+and+abr+alchemie</searchURL>
-    <vorkommenVerleger>5</vorkommenVerleger>
+    <vorkommenVerleger>6</vorkommenVerleger>
     <beaconResults>
       <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/119610361</link>
       <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd119610361.html</link>
@@ -31902,17 +31920,6 @@
     </beaconResults>
   </person>
   <person>
-    <vorname>Andreas</vorname>
-    <nachname>Grutinius</nachname>
-    <sortiername>Grutinius, Andreas</sortiername>
-    <gnd>1055594647</gnd>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+1055594647+or+aut+Grutinius, Andreas)+and+abr+alchemie</searchURL>
-    <vorkommenAutor>1</vorkommenAutor>
-    <beaconResults>
-      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/1055594647</link>
-    </beaconResults>
-  </person>
-  <person>
     <vorname>Girolamo</vorname>
     <nachname>Cardano</nachname>
     <sortiername>Cardano, Girolamo</sortiername>
@@ -31928,6 +31935,17 @@
       <link>Dizionario Biografico degli Italiani#http://beacon.findbuch.de/gnd-resolver/pw_dbi/11863822X</link>
       <link>Kalliope Verbundkatalog#http://kalliope.staatsbibliothek-berlin.de/de/eac?eac.id=11863822X</link>
       <link>Digitaler Portraitindex#http://www.portraitindex.de/dokumente/pnd/11863822X</link>
+    </beaconResults>
+  </person>
+  <person>
+    <vorname>Andreas</vorname>
+    <nachname>Grutinius</nachname>
+    <sortiername>Grutinius, Andreas</sortiername>
+    <gnd>1055594647</gnd>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+1055594647+or+aut+Grutinius, Andreas)+and+abr+alchemie</searchURL>
+    <vorkommenAutor>1</vorkommenAutor>
+    <beaconResults>
+      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/1055594647</link>
     </beaconResults>
   </person>
   <person>
@@ -31980,6 +31998,17 @@
     </beaconResults>
   </person>
   <person>
+    <vorname>Johannes</vorname>
+    <nachname>Montanus</nachname>
+    <sortiername>Montanus, Johannes</sortiername>
+    <gnd>119766671</gnd>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+119766671+or+aut+Montanus, Johannes)+and+abr+alchemie</searchURL>
+    <vorkommenAutor>1</vorkommenAutor>
+    <beaconResults>
+      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/119766671</link>
+    </beaconResults>
+  </person>
+  <person>
     <vorname>Samuel</vorname>
     <nachname>Eisenmenger</nachname>
     <sortiername>Eisenmenger, Samuel</sortiername>
@@ -31993,13 +32022,6 @@
       <link>Kalliope Verbundkatalog#http://kalliope.staatsbibliothek-berlin.de/de/eac?eac.id=124799825</link>
       <link>Digitaler Portraitindex#http://www.portraitindex.de/dokumente/pnd/124799825</link>
     </beaconResults>
-  </person>
-  <person>
-    <vorname>Johannes</vorname>
-    <nachname>Montanus</nachname>
-    <sortiername>Montanus, Johannes</sortiername>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=aut+Montanus, Johannes+and+abr+alchemie</searchURL>
-    <vorkommenAutor>1</vorkommenAutor>
   </person>
   <person>
     <vorname>Richard</vorname>
@@ -32111,7 +32133,7 @@
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+117421359+or+aut+Toxites, Michael)+and+abr+alchemie</searchURL>
     <lebensdaten>1515&#x2013;1581</lebensdaten>
     <vorkommenAutor>1</vorkommenAutor>
-    <vorkommenBeteiligt>15</vorkommenBeteiligt>
+    <vorkommenBeteiligt>16</vorkommenBeteiligt>
     <beaconResults>
       <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/117421359</link>
       <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/117421359</link>
@@ -33138,6 +33160,21 @@
     <vorkommenBeteiligt>3</vorkommenBeteiligt>
   </person>
   <person>
+    <vorname>Adam</vorname>
+    <nachname>Berg</nachname>
+    <sortiername>Berg, Adam</sortiername>
+    <gnd>103140522</gnd>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+103140522+or+aut+Berg, Adam+or+dru+Berg, Adam)+and+abr+alchemie</searchURL>
+    <lebensdaten>1540&#x2013;1610</lebensdaten>
+    <vorkommenBeteiligt>1</vorkommenBeteiligt>
+    <vorkommenVerleger>2</vorkommenVerleger>
+    <beaconResults>
+      <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/103140522</link>
+      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/103140522</link>
+      <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd103140522.html</link>
+    </beaconResults>
+  </person>
+  <person>
     <vorname>Lazarus</vorname>
     <nachname>Schwendi</nachname>
     <titel>von</titel>
@@ -33309,7 +33346,7 @@
     <sortiername>Rosselli, Annibale</sortiername>
     <gnd>124858953</gnd>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+124858953+or+aut+Rosselli, Annibale)+and+abr+alchemie</searchURL>
-    <vorkommenBeteiligt>6</vorkommenBeteiligt>
+    <vorkommenBeteiligt>7</vorkommenBeteiligt>
     <beaconResults>
       <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/124858953</link>
     </beaconResults>
@@ -33361,20 +33398,6 @@
     <beaconResults>
       <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/1055538380</link>
       <link>Gesamtkatalog deutschsprachiger Leichenpredigten#http://cgi-host.uni-marburg.de/~omgesa/gs/xs1.php?f1=pnd&amp;s1=1055538380</link>
-    </beaconResults>
-  </person>
-  <person>
-    <vorname>Heinrich</vorname>
-    <nachname>Wolff</nachname>
-    <sortiername>Wolff, Heinrich</sortiername>
-    <gnd>104066563</gnd>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+104066563+or+aut+Wolff, Heinrich)+and+abr+alchemie</searchURL>
-    <lebensdaten>1520&#x2013;1581</lebensdaten>
-    <vorkommenBeteiligt>1</vorkommenBeteiligt>
-    <beaconResults>
-      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/104066563</link>
-      <link>Sandrart.net#http://ta.sandrart.net/services/pnd-beacon/?pnd=104066563</link>
-      <link>Digitaler Portraitindex#http://www.portraitindex.de/dokumente/pnd/104066563</link>
     </beaconResults>
   </person>
   <person>
@@ -33465,7 +33488,7 @@
     <name>Margarete</name>
     <beiname>Frankreich, K&#xF6;nigin, 1553-1615</beiname>
     <titel>de</titel>
-    <sortiername>Margarete K&#xF6;nigin von Frankreich</sortiername>
+    <sortiername>Margarete, K&#xF6;nigin von Frankreich</sortiername>
     <gnd>118577700</gnd>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+118577700+or+aut+Navarre, Marguerite de, Frankreich, K&#xF6;nigin, 1553-1615)+and+abr+alchemie</searchURL>
     <lebensdaten>1553&#x2013;1615</lebensdaten>
@@ -33687,7 +33710,7 @@
     <sortiername>Baumann, Georg</sortiername>
     <gnd>132030276</gnd>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+Baumann, Georg+and+abr+alchemie</searchURL>
-    <vorkommenVerleger>1</vorkommenVerleger>
+    <vorkommenVerleger>2</vorkommenVerleger>
     <beaconResults>
       <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/132030276</link>
       <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd132030276.html</link>
@@ -33848,11 +33871,15 @@
     </beaconResults>
   </person>
   <person>
-    <koerperschaftsname>Drukarnia &#x141;azarzowa</koerperschaftsname>
-    <sortiername>Drukarnia &#x141;azarzowa</sortiername>
-    <gnd>6145924-0</gnd>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+Drukarnia &#x141;azarzowa+and+abr+alchemie</searchURL>
-    <vorkommenVerleger>1</vorkommenVerleger>
+    <vorname>Leonhard</vorname>
+    <nachname>Heu&#xDF;ler</nachname>
+    <sortiername>Heu&#xDF;ler, Leonhard</sortiername>
+    <gnd>121723933</gnd>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+Heu&#xDF;ler, Leonhard+and+abr+alchemie</searchURL>
+    <vorkommenVerleger>2</vorkommenVerleger>
+    <beaconResults>
+      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/121723933</link>
+    </beaconResults>
   </person>
   <person>
     <vorname>Bernhard</vorname>
@@ -33976,17 +34003,6 @@
     </beaconResults>
   </person>
   <person>
-    <vorname>Leonhard</vorname>
-    <nachname>Heu&#xDF;ler</nachname>
-    <sortiername>Heu&#xDF;ler, Leonhard</sortiername>
-    <gnd>121723933</gnd>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+Heu&#xDF;ler, Leonhard+and+abr+alchemie</searchURL>
-    <vorkommenVerleger>1</vorkommenVerleger>
-    <beaconResults>
-      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/121723933</link>
-    </beaconResults>
-  </person>
-  <person>
     <vorname>Jean</vorname>
     <nachname>Tournes</nachname>
     <titel>de</titel>
@@ -34055,6 +34071,17 @@
     <gnd>1069891339</gnd>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+Graues Kloster+and+abr+alchemie</searchURL>
     <vorkommenVerleger>1</vorkommenVerleger>
+  </person>
+  <person>
+    <vorname>Nikolaus</vorname>
+    <nachname>Wyriot</nachname>
+    <sortiername>Wyriot, Nikolaus</sortiername>
+    <gnd>119872412</gnd>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+Wyriot, Nikolaus+and+abr+alchemie</searchURL>
+    <vorkommenVerleger>1</vorkommenVerleger>
+    <beaconResults>
+      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/119872412</link>
+    </beaconResults>
   </person>
   <person>
     <vorname>Christian</vorname>
@@ -34182,6 +34209,18 @@
       <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/122875699</link>
       <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd122875699.html</link>
       <link>Virtuelles Kupferstichkabinett#http://www.virtuelles-kupferstichkabinett.de/index.php?reset=1&amp;subPage=search&amp;selTab=2&amp;habFilter=1&amp;haumFilter=1&amp;selFilter=0&amp;sKey1=pzusatz&amp;sWord1=122875699</link>
+    </beaconResults>
+  </person>
+  <person>
+    <vorname>Ambrosius</vorname>
+    <nachname>Fritsche</nachname>
+    <sortiername>Fritsche, Ambrosius</sortiername>
+    <gnd>104277319</gnd>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+Fritsche, Ambrosius+and+abr+alchemie</searchURL>
+    <vorkommenVerleger>1</vorkommenVerleger>
+    <beaconResults>
+      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/104277319</link>
+      <link>Gesamtkatalog deutschsprachiger Leichenpredigten#http://cgi-host.uni-marburg.de/~omgesa/gs/xs1.php?f1=pnd&amp;s1=104277319</link>
     </beaconResults>
   </person>
   <person>
@@ -35147,7 +35186,7 @@
     <gnd>118500643</gnd>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=(gnd+118500643+or+aut+Adelphus, Johannes)+and+abr+alchemie</searchURL>
     <lebensdaten>1485&#x2013;1523</lebensdaten>
-    <vorkommenBeteiligt>2</vorkommenBeteiligt>
+    <vorkommenBeteiligt>3</vorkommenBeteiligt>
     <beaconResults>
       <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/118500643</link>
       <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/118500643</link>
@@ -35328,6 +35367,34 @@
     </beaconResults>
   </person>
   <person>
+    <vorname>Hieronymus</vorname>
+    <nachname>Froben</nachname>
+    <sortiername>Froben, Hieronymus</sortiername>
+    <gnd>119678365</gnd>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+Froben, Hieronymus+and+abr+alchemie</searchURL>
+    <vorkommenVerleger>5</vorkommenVerleger>
+    <beaconResults>
+      <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/119678365</link>
+      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/119678365</link>
+      <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd119678365.html</link>
+      <link>Historisches Lexikon der Schweiz#http://beacon.findbuch.de/pnd-resolver/hls/119678365</link>
+      <link>Virtuelles Kupferstichkabinett#http://www.virtuelles-kupferstichkabinett.de/index.php?reset=1&amp;subPage=search&amp;selTab=2&amp;habFilter=1&amp;haumFilter=1&amp;selFilter=0&amp;sKey1=pzusatz&amp;sWord1=119678365</link>
+    </beaconResults>
+  </person>
+  <person>
+    <vorname>Nicolaus</vorname>
+    <nachname>Episcopius</nachname>
+    <sortiername>Episcopius, Nicolaus</sortiername>
+    <gnd>128686634</gnd>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+Episcopius, Nicolaus+and+abr+alchemie</searchURL>
+    <vorkommenVerleger>5</vorkommenVerleger>
+    <beaconResults>
+      <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/128686634</link>
+      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/128686634</link>
+      <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd128686634.html</link>
+    </beaconResults>
+  </person>
+  <person>
     <vorname>Alexander</vorname>
     <nachname>Wei&#xDF;enhorn</nachname>
     <sortiername>Wei&#xDF;enhorn, Alexander</sortiername>
@@ -35363,31 +35430,21 @@
     </beaconResults>
   </person>
   <person>
-    <vorname>Hieronymus</vorname>
-    <nachname>Froben</nachname>
-    <sortiername>Froben, Hieronymus</sortiername>
-    <gnd>119678365</gnd>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+Froben, Hieronymus+and+abr+alchemie</searchURL>
-    <vorkommenVerleger>4</vorkommenVerleger>
-    <beaconResults>
-      <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/119678365</link>
-      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/119678365</link>
-      <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd119678365.html</link>
-      <link>Historisches Lexikon der Schweiz#http://beacon.findbuch.de/pnd-resolver/hls/119678365</link>
-      <link>Virtuelles Kupferstichkabinett#http://www.virtuelles-kupferstichkabinett.de/index.php?reset=1&amp;subPage=search&amp;selTab=2&amp;habFilter=1&amp;haumFilter=1&amp;selFilter=0&amp;sKey1=pzusatz&amp;sWord1=119678365</link>
-    </beaconResults>
+    <koerperschaftsname>Andreas Cratander Erben</koerperschaftsname>
+    <sortiername>Andreas Cratander Erben</sortiername>
+    <gnd>6146364-4</gnd>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+Andreas Cratander Erben+and+abr+alchemie</searchURL>
+    <vorkommenVerleger>1</vorkommenVerleger>
   </person>
   <person>
-    <vorname>Nicolaus</vorname>
-    <nachname>Episcopius</nachname>
-    <sortiername>Episcopius, Nicolaus</sortiername>
-    <gnd>128686634</gnd>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+Episcopius, Nicolaus+and+abr+alchemie</searchURL>
-    <vorkommenVerleger>4</vorkommenVerleger>
+    <vorname>Gabriel</vorname>
+    <nachname>Ringseisen</nachname>
+    <sortiername>Ringseisen, Gabriel</sortiername>
+    <gnd>135672104</gnd>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+Ringseisen, Gabriel+and+abr+alchemie</searchURL>
+    <vorkommenVerleger>1</vorkommenVerleger>
     <beaconResults>
-      <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/128686634</link>
-      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/128686634</link>
-      <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd128686634.html</link>
+      <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd135672104.html</link>
     </beaconResults>
   </person>
   <person>
@@ -35469,6 +35526,18 @@
     </beaconResults>
   </person>
   <person>
+    <vorname>Hermann</vorname>
+    <nachname>G&#xFC;lfferich</nachname>
+    <sortiername>G&#xFC;lfferich, Hermann</sortiername>
+    <gnd>119687399</gnd>
+    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+G&#xFC;lfferich, Hermann+and+abr+alchemie</searchURL>
+    <vorkommenVerleger>3</vorkommenVerleger>
+    <beaconResults>
+      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/119687399</link>
+      <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd119687399.html</link>
+    </beaconResults>
+  </person>
+  <person>
     <vorname>Christian</vorname>
     <nachname>Egenolff</nachname>
     <sortiername>Egenolff, Christian</sortiername>
@@ -35482,18 +35551,6 @@
       <link>Hessische Biografie#http://www.lagis-hessen.de/pnd/122968468</link>
       <link>Digitaler Portraitindex#http://www.portraitindex.de/dokumente/pnd/122968468</link>
       <link>Virtuelles Kupferstichkabinett#http://www.virtuelles-kupferstichkabinett.de/index.php?reset=1&amp;subPage=search&amp;selTab=2&amp;habFilter=1&amp;haumFilter=1&amp;selFilter=0&amp;sKey1=pzusatz&amp;sWord1=122968468</link>
-    </beaconResults>
-  </person>
-  <person>
-    <vorname>Hermann</vorname>
-    <nachname>G&#xFC;lfferich</nachname>
-    <sortiername>G&#xFC;lfferich, Hermann</sortiername>
-    <gnd>119687399</gnd>
-    <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+G&#xFC;lfferich, Hermann+and+abr+alchemie</searchURL>
-    <vorkommenVerleger>2</vorkommenVerleger>
-    <beaconResults>
-      <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/119687399</link>
-      <link>Deutsche Biographie#http://www.deutsche-biographie.de/pnd119687399.html</link>
     </beaconResults>
   </person>
   <person>
@@ -35694,7 +35751,7 @@
     <sortiername>Gr&#xFC;ninger, Johannes</sortiername>
     <gnd>118698451</gnd>
     <searchURL>http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&amp;TRM=dru+Gr&#xFC;ninger, Johannes+and+abr+alchemie</searchURL>
-    <vorkommenVerleger>6</vorkommenVerleger>
+    <vorkommenVerleger>7</vorkommenVerleger>
     <beaconResults>
       <link>Wikipedia#http://tools.wmflabs.org/persondata/redirect/gnd/de/118698451</link>
       <link>Deutsche Digitale Bibliothek#https://www.deutsche-digitale-bibliothek.de/entity/118698451</link>

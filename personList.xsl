@@ -15,7 +15,11 @@
                 <h1>Anzeige aller Personen der Alchemie-Bestände</h1>
                 <xsl:for-each select="//person">
                     <xsl:sort select="sortiername"/>
-                        <b><xsl:value-of select="sortiername"/></b>
+                    <xsl:call-template name="namensanzeige">
+                        <xsl:with-param name="sortiername"><xsl:value-of select="sortiername"/></xsl:with-param>
+                        <xsl:with-param name="url"><xsl:value-of select="searchURL"/></xsl:with-param>                        
+                    </xsl:call-template>
+                    <!--<b><xsl:value-of select="sortiername"/></b>-->
                         <xsl:if test="lebensdaten">&#160;(<xsl:value-of select="lebensdaten"/>)</xsl:if>
                         <xsl:if test="gnd">&#160;<xsl:value-of select="gnd"/></xsl:if>                    
                         <br />
@@ -34,6 +38,12 @@
             </body>
         </html>
         
+    </xsl:template>
+    
+    <xsl:template name="namensanzeige">
+        <xsl:param name="sortiername"></xsl:param>
+        <xsl:param name="url"></xsl:param>
+        <a href="{$url}" target="_blank"><xsl:value-of select="$sortiername"/></a>
     </xsl:template>
     
     <xsl:template name="displayLink">
