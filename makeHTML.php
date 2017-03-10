@@ -62,20 +62,23 @@ $personList->loadFromFile('cache');
 usort($personList->content, 'sortPersons');
 
 $letters = array('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '#');
+$remaining = $letters;
+array_shift($remaining);
 $count = 0;
 $collect = '';
+
 foreach($personList->content as $person) {
-	if($letters[$count] == '#') {
-		break;
-	}
-	if(strtolower(substr($person->sortiername, 0, 1)) != $letters[$count + 1]) {
+	//Prüfen, ob der Anfangsbuchstabe einer der folgenden im Alphabet ist, wenn nein, wird der Eintrag zwischengespeichert
+	if(in_array(strtolower(substr($person->sortiername, 0, 1)), $remaining) == FALSE) {
 		$collect .= makeHTML($person);
 	}
+	//Sind wir schon bei einem folgenden Buchstaben im Alphabet, wird abgespeichert und alle Variablen werden zurückgesetzt
 	else {
 		file_put_contents('html/'.$letters[$count], $collect);
 		$collect = '';
 		$collect .= makeHTML($person);
 		$count += 1;
+		array_shift($remaining);
 	}
 }
 file_put_contents('html/'.$letters[$count], $collect);
