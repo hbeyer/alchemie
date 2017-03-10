@@ -9,6 +9,7 @@ des Objekts nach dem Schema {Feldname} => {Feldinhalt} vorgenommen werden könne
 
 $amendmentsSortingName = array(
 
+	'A.de S.' => 'A. de S.',
 	'Abbot, George, Erzbischof von Canterbury' => 'Abbot, George', // Umleitung auf GND
 	'Adolphus-Fridericus Dux Megapolitano' => 'Adolf Friedrich I., Herzog von Mecklenburg',
 	'Adolphus-Fridericus Dux Megapolitanus' => 'Adolf Friedrich I., Herzog von Mecklenburg',

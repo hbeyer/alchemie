@@ -37,7 +37,7 @@ $beaconSources = array(
 		'target' => 'http://personen.digitale-sammlungen.de/pnd/treffer.html?object=liste&suche=pndid:{ID}%20AND%20(bsbID:bsb00000273%20OR%20bsbID:bsb00000274%20OR%20bsbID:bsb00000279%20OR%20bsbID:bsb00000280%20OR%20bsbID:bsb00000281%20OR%20bsbID:bsb00000282%20OR%20bsbID:bsb00000283%20OR%20bsbID:bsb00000284)&pos=1'
 	),
 	'bwbio' => array(
-		'label' => 'Biografische Sammelwerke der Kommission für geschichtliche Landeskunde in Baden-Württemberg',
+		'label' => 'Biografische Sammelwerke Baden-Württemberg',
 		'location' => 'http://www.leo-bw.de/documents/10157/0/leo-bw-beacon_kgl_bio.txt',
 		'target' => 'http://www.leo-bw.de/web/guest/detail/-/Detail/details/PERSON/kgl_biographien/{ID}/biografie'
 	), 		
@@ -52,17 +52,17 @@ $beaconSources = array(
 		'target' => 'http://www.rlb.de/cgi-bin/wwwalleg/goorppd.pl?db=rnam&index=1&zeilen=1&s1={ID}'
 	),
 	'wfg' => array(
-		'label' => 'Internet-Portal «Westfälische Geschichte»',
+		'label' => 'Westfälische Geschichte',
 		'location' => 'http://www.lwl.org/westfaelische-geschichte/meta/pnd.txt',
 		'target' => 'http://www.westfaelische-geschichte.de/pnd{ID}'
 	), 
 	'trithemius' => array(
-		'label' => 'Trithemius: De scriptoribus ecclesiasticis',
+		'label' => 'Trithemius',
 		'location' => 'http://www.mgh-bibliothek.de/beacon/trithemius',
 		'target' => 'http://www.mgh.de/index.php?&wa72ci_url=%2Fcgi-bin%2Fmgh%2Fallegro.pl&db=opac&var5=IDN&TYP=&id=438&item5=trithemius_{ID}'
 	),
 	'fabricius' => array(
-		'label' => 'Fabricius: Bibliotheca latina',
+		'label' => 'Fabricius',
 		'location' => 'http://www.mgh-bibliothek.de/beacon/fabricius',
 		'target' => 'http://www.mgh.de/index.php?&wa72ci_url=%2Fcgi-bin%2Fmgh%2Fallegro.pl&db=opac&var5=IDN&TYP=&id=438&item5=fabricius_{ID}'
 	),			
@@ -82,7 +82,7 @@ $beaconSources = array(
 		'target' => 'http://www.uni-leipzig.de/unigeschichte/professorenkatalog/leipzig/pnd/{ID}'
 	),
 	'cpm' => array(
-		'label' => 'Catalogus Professorum der Universität Mainz',
+		'label' => 'Mainzer Professorenkatalog',
 		'location' => 'http://gutenberg-biographics.ub.uni-mainz.de/gnd/personen/beacon/file.txt',
 		'target' => 'http://gutenberg-biographics.ub.uni-mainz.de/gnd/{ID}'
 	),
@@ -98,12 +98,12 @@ $beaconSources = array(
 		'target' => 'http://histvv.uni-leipzig.de/pnd/{ID}'
 	), */
 	'hvuz' => array(
-		'label' => 'Historische Vorlesungsverzeichnisse der Universität Zürich 1833–1900',
+		'label' => 'Vorlesungsverzeichnisse der Universität Zürich',
 		'location' => 'http://histvv.uzh.ch/pnd.txt',
 		'target' => 'http://histvv.uzh.ch/pnd/{ID}'
 	),
 	'mabk' => array(
-		'label' => 'Matrikel der Akademie der Bildenden Künste München',
+		'label' => 'Akademie der Bildenden Künste München',
 		'location' => 'http://www.historische-kommission-muenchen-editionen.de/beacond/adbk.php?beacon',
 		'target' => 'http://www.historische-kommission-muenchen-editionen.de/beacond/adbk.php?pnd={ID}'
 	),
@@ -123,7 +123,7 @@ $beaconSources = array(
 		'target' => 'http://ta.sandrart.net/services/pnd-beacon/?pnd={ID}'
 	),
 	'kall' => array(
-		'label' => 'Kalliope Verbundkatalog',
+		'label' => 'Kalliope',
 		'location' => 'http://kalliope.staatsbibliothek-berlin.de/beacon/beacon.txt',
 		'target' => 'http://kalliope.staatsbibliothek-berlin.de/de/eac?eac.id={ID}'
 	),	
@@ -143,17 +143,17 @@ $beaconSources = array(
 		'target' => 'http://www.deutschestextarchiv.de/api/pnd/{ID}'
 	),
 	'cors' => array(
-		'label' => 'correspSearch – Verzeichnisse von Briefeditionen',
+		'label' => 'correspSearch',
 		'location' => 'http://correspsearch.net/api/v1/gnd-beacon.xql?correspondent=all',
 		'target' => 'http://correspsearch.bbaw.de/search.xql?correspondent=http://d-nb.info/gnd/{ID}&l=de'
 	),
 	'gsp' => array(
-		'label' => 'Germania Sacra Personendatenbank',
+		'label' => 'Germania Sacra',
 		'location' => 'http://personendatenbank.germania-sacra.de/beacon.txt',
 		'target' => 'http://personendatenbank.germania-sacra.de/index/gnd/{ID}'
 	), 
 	'muenz' => array(
-		'label' => 'Münzkabinetts Staatliche Museen zu Berlin',
+		'label' => 'Münzkabinett SMB',
 		'location' => 'http://ww2.smb.museum/ikmk/beacon_gnd.php',
 		'target' => 'http://ww2.smb.museum/ikmk/filter_text.php?filter%5B0%5D%5Bfield%5D=gnd&filter%5B0%5D%5Btext%5D={ID}'
 	),	
@@ -183,7 +183,7 @@ $beaconSources = array(
 		'target' => 'http://beacon.findbuch.de/gnd-resolver/pw_imslp/{ID}'
 	),
 	'cmvw' => array(
-		'label' => 'Carl Maria von Weber Gesamtausgabe (WeGA)',
+		'label' => 'Carl Maria von Weber Gesamtausgabe',
 		'location' => 'http://weber-gesamtausgabe.de/pnd_beacon.txt',
 		'target' => 'http://www.weber-gesamtausgabe.de/de/pnd/{ID}'
 	),
