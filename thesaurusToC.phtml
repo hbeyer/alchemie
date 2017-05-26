@@ -1,0 +1,9 @@
+<div id="thesaurus-toc">
+	<?php foreach ($columns as $column): ?>
+	<div class="col">
+		<?php foreach ($column as $term): ?>
+			<p class="thesaurus-toc"><a href="thesaurus#<?php echo $term->id; ?>"><?php echo $term->begriff; ?></a></p>
+		<?php endforeach; ?>
+	</div>
+	<?php endforeach; ?>
+</div>

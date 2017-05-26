@@ -1,0 +1,72 @@
+<div id="thesaurus-content">
+<?php foreach ($terms as $term): ?>
+<h2 id="<?php echo $term->id; ?>"><?php echo $term->begriff; ?></h2>
+<table cellspacing="0" cellpadding="0" border="0" style="margin-bottom:0px;width:100%">
+	<tr>
+		<td class="desc" valign="top">Definition:</td><td class="cont" valign="top"><?php echo $term->definition; ?></td>
+	</tr>
+	<tr>
+		<td class="desc" valign="top">Art des Begriffs:</td><td class="cont" valign="top"><?php echo implode('<br />', $term->art); ?></td>
+	</tr>
+	<tr>
+		<td class="desc" valign="top">Synonym(e):</td>
+		<td class="cont" valign="top"><?php echo implode('; ', $term->synonym); ?></td>
+	</tr>
+	<tr>
+		<td class="desc" valign="top">Synonym – modern:</td><td class="cont" valign="top">
+		<?php echo implode('<br />', $term->synonymModern); ?>
+		</td>
+	</tr>
+	<tr>
+		<td class="desc" valign="top">Modernes chemisches Symbol:</td><td class="cont" valign="top"><?php echo $term->symbol; ?></td>
+	</tr>
+	<tr>
+		<td class="desc" valign="top">Oberbegriff(e):</td>
+		<td class="cont" valign="top">
+		<?php echo implode('<br />', $term->oberbegriff); ?>
+		</td>
+	</tr>
+	<tr>
+		<td class="desc" valign="top">Unterbegriff(e):</td><td class="cont" valign="top">
+		<?php echo implode('<br />', $term->unterbegriff); ?>
+		</td>
+	</tr>
+	<tr>
+		<td class="desc" valign="top">Verwandte(r) Begriff(e):</td>
+		<td class="cont" valign="top"><?php echo implode('; ', $term->verwandt); ?></td>
+	</tr>
+	<tr>
+		<td class="desc" valign="top">Ausgewählte Quellen (vermerkt ist die OPAC-Signatur mit Angabe der Aufstellung):</td>
+		<td class="cont" valign="top">
+		<?php echo implode('<br />', $term->quellen); ?>
+		</td>
+	</tr>
+	<tr>
+		<td class="desc" valign="top">Abbildung in den Quellen:</td>
+		<td class="cont" valign="top">
+		<?php echo implode('<br />', $term->abbildung); ?>
+		</td>
+	</tr>
+	<tr>
+		<td class="desc" valign="top">Bildlink:</td>
+		<td class="cont" valign="top">
+		<?php foreach($term->bildlink as $link): ?>
+			<a href="<?php echo $link; ?>" target="_blank"><?php echo $link; ?></a>
+		<?php endforeach; ?>
+		</td>
+	</tr>
+	<tr>
+		<td class="desc" valign="top">Ausgewählte Forschungsliteratur:</td>
+		<td class="cont" valign="top">
+		<?php echo implode('<br />', $term->forschungsliteratur); ?>
+		</td>
+	</tr>
+	<tr>
+		<td class="desc" valign="top">Titel mit Schlagwort im OPAC:</td><td class="cont" valign="top"><a href="http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&TRM=lsw+<?php echo $term->begriff;?>+and+abr+alchemie
+		" target="_blank">http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&TRM=lsw+<?php echo $term->begriff;  ?>+and+abr+alchemie</a>
+		</td>
+	</tr>
+</table>
+<a class="toGo" href="thesaurus#thesaurus-toc">nach oben</a>
+<?php endforeach; ?>
+</div>

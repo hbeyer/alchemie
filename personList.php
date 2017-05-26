@@ -3,7 +3,7 @@
 class personList {
 	
 	public $content = array();
-	static $evaluateFields = array(
+	private $evaluateFields = array(
 		'028A' => 'autor',
 		'028B' => 'autor',
 		'028L' => 'beteiligt',
@@ -11,14 +11,8 @@ class personList {
 		'033J' => 'verleger'
 		);
 	
-	function addPerson($person) {
-		if(is_object($person) == FALSE) {
-			return;
-		}
-		elseif(get_class($person) != 'person') {
-			return;
-		}
-		elseif(preg_match('~[0-9X]{7}~', $person->sortiername) or trim($person->sortiername) == '') {
+	function addPerson(person $person) {
+		if(preg_match('~[0-9X]{7}~', $person->sortiername) or trim($person->sortiername) == '') {
 			/* echo 'Nicht aufgenommen, da ohne Sortiername:'."\r\n";
 			var_dump($person);
 			echo "\r\n"; */
@@ -76,7 +70,7 @@ class personList {
 			return('finished');
 		}
 		
-		foreach(self::evaluateFields as $field => $relation) {
+		foreach($this->evaluateFields as $field => $relation) {
 			$xp = new DOMXPath($dom);
 			$nodes = $xp->evaluate('//*[namespace-uri()="info:srw/schema/5/picaXML-v1.0" and local-name()="datafield" and @tag="'.$field.'"]');	
 			foreach($nodes as $node) {

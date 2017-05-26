@@ -1,11 +1,6 @@
 ﻿<?php
 
 $beaconSources = array(
-	'wkp' => array(
-		'label' => 'Wikipedia',
-		'location' => 'http://tools.wmflabs.org/persondata/beacon/dewiki.txt',
-		'target' => 'http://tools.wmflabs.org/persondata/redirect/gnd/de/{ID}'
-	),
 	'ddb' => array(
 		'label' => 'Deutsche Digitale Bibliothek',
 		'location' => 'https://www.deutsche-digitale-bibliothek.de/beacon/beacon-ddb-persons.txt',
@@ -55,7 +50,12 @@ $beaconSources = array(
 		'label' => 'Westfälische Geschichte',
 		'location' => 'http://www.lwl.org/westfaelische-geschichte/meta/pnd.txt',
 		'target' => 'http://www.westfaelische-geschichte.de/pnd{ID}'
-	), 
+	),
+	'wkp' => array(
+		'label' => 'Wikipedia',
+		'location' => 'http://tools.wmflabs.org/persondata/beacon/dewiki.txt',
+		'target' => 'http://tools.wmflabs.org/persondata/redirect/gnd/de/{ID}'
+	),	
 	'trithemius' => array(
 		'label' => 'Trithemius',
 		'location' => 'http://www.mgh-bibliothek.de/beacon/trithemius',
@@ -110,7 +110,7 @@ $beaconSources = array(
 	'gesa' => array(
 		'label' => 'Gesamtkatalog deutschsprachiger Leichenpredigten',
 		'location' => 'http://www.online.uni-marburg.de/fpmr/pnd.txt',
-		'target' => 'http://cgi-host.uni-marburg.de/~omgesa/gs/xs1.php?f1=pnd&s1={ID}'
+		'target' => 'https://www.online.uni-marburg.de/fpmr/php/gs/xs2.php?f1=pnd&s1={ID}'
 	),
 	'fruchtbringer' => array(
 		'label' => 'Fruchtbringende Gesellschaft',
